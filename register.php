@@ -13,6 +13,7 @@ echo "</pre>";
   <body>
     <div class="contenedor">
       <header>
+        <h1>registro</h1>
         <nav>
           <ul>
             <li><a href="iniciar_sesion.php">¿ya tiene cuenta?</a></li>
