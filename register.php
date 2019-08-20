@@ -17,7 +17,7 @@ echo "</pre>";
         <nav>
           <ul>
             <li><a href="iniciar_sesion.php">¿ya tiene cuenta?</a></li>
-            <li><a href="#">quienes somos</a></li>
+            <li><a href="faq.htlm">quienes somos</a></li>
           </ul>
         </nav>
       </header>
