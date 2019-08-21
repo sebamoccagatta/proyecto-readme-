@@ -5,6 +5,7 @@
     <title>iniciar sesion</title>
   </head>
   <body>
-    
+
+    <label for=""></label>
   </body>
 </html>
