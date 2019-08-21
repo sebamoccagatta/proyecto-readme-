@@ -1,7 +1,7 @@
 <?php
-echo "<pre>";
-var_dump($_POST);
-echo "</pre>";
+// echo "<pre>";
+// var_dump($_POST);
+// echo "</pre>";
  ?>
 
 <!DOCTYPE html>
@@ -16,8 +16,8 @@ echo "</pre>";
         <h1>registro</h1>
         <nav>
           <ul>
-            <li><a href="iniciar_sesion.php">¿ya tiene cuenta?</a></li>
-            <li><a href="faq.htlm">quienes somos</a></li>
+            <li><a href="iniciar_sesion.php">¿Ya tiene cuenta?</a></li>
+            <li><a href="faq.htlm">Quienes somos</a></li>
           </ul>
         </nav>
       </header>
