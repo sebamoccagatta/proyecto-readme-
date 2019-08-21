@@ -6,10 +6,10 @@
   </head>
   <body>
 <h1>Iniciar sesion.</h1>
-    <label for="Usuario">Nombre de usuario.</label>
-    <input type="text" name="Nombre de usuario" >
-    <label for="password">Contraseña.</label>
-    <input type="password" name="Contraseña">
+    <label for="Usuario">Nombre de usuario.</label><br>
+    <input type="text" name="Nombre de usuario" ><br>
+    <label for="password">Contraseña.</label><br>
+    <input type="password" name="Contraseña"><br>
 
   <button type="submit" name="Iniciar">Iniciar</button>
   </body>
