@@ -1,8 +1,8 @@
-*{
+/* *{
   box-sizing: border-box;
   margin: 0 auto;
   padding: 0;
-}
+} */
 .contenedor{
   display: flex;
 }
@@ -11,6 +11,5 @@ nav{
 justify-content: center;
 }
 form{
-  justify-content: center;
-
+justify-content: center;
 }
