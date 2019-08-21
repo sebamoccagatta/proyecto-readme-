@@ -9,11 +9,12 @@
   <head>
     <meta charset="utf-8">
     <title>registro</title>
+    <link rel="stylesheet" href="css/stilos.css">
   </head>
   <body>
     <div class="contenedor">
       <header>
-        <h1>registro</h1>
+        <h1>Registro</h1>
         <nav>
           <ul>
             <li><a href="iniciar_sesion.php">¿Ya tiene cuenta?</a></li>
