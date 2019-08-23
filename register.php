@@ -30,7 +30,7 @@
           <label for="Confirmarc">Confirmar Contraseña:</label><br>
           <input type="password" name="Confirmarc"><br>
           <br>
-          <button type="submit" name="enviar formulario">enviar formulario</button>
+          <button type="submit" name="enviar formulario">Enviar registro.</button>
         </form>
         <nav>
           <ul>

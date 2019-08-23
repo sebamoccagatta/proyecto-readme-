@@ -10,6 +10,7 @@
 h1{
   display: flex;
   justify-content: center;
+  margin-bottom: 20px;
 }
 form{
   display: flex;
@@ -17,10 +18,10 @@ form{
   justify-content: center;
   justify-content: space-around;
 }
-nav{
-
+ul{
   display: flex;
+  flex-direction: row;
   justify-content: center;
-  justify-content: space-around;
-  
+  list-style-type: none;
+
 }
