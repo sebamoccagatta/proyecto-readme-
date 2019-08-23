@@ -20,15 +20,15 @@
       <section>
         <form class="" action="register.php" method="post">
           <label for="Nombre">Nombre:</label><br>
-          <input type="text" name="Nombre"><br>
+          <input type="text" name="Nombre" required><br>
           <label for="Apellido">Apellido:</label><br>
-          <input type="text" name="Apellido"><br>
+          <input type="text" name="Apellido" required><br>
           <label for="email">E-mail:</label><br>
-          <input type="email" name="email"><br>
+          <input type="email" name="email" required><br>
           <label for="Contraseña">Contraseña:</label><br>
-          <input type="password" name="Contraseña"><br>
+          <input type="password" name="Contraseña" required><br>
           <label for="Confirmarc">Confirmar Contraseña:</label><br>
-          <input type="password" name="Confirmarc"><br>
+          <input type="password" name="Confirmarc" required><br>
           <br>
           <button type="submit" name="enviar formulario">Enviar registro.</button>
         </form>
