@@ -15,12 +15,7 @@
     <div class="contenedor">
       <header>
         <h1>Registro</h1>
-        <nav>
-          <ul>
-            <li><a href="iniciar_sesion.php">¿Ya tiene cuenta?</a></li>
-            <li><a href="faq.htlm">Quienes somos</a></li>
-          </ul>
-        </nav>
+
       </header>
       <section>
         <form class="" action="register.php" method="post">
@@ -37,6 +32,12 @@
           <br>
           <button type="submit" name="enviar formulario">enviar formulario</button>
         </form>
+        <nav>
+          <ul>
+            <li><a href="iniciar_sesion.php">¿Ya tiene cuenta?</a></li>
+            <li><a href="faq.htlm">Quienes somos</a></li>
+          </ul>
+        </nav>
       </section>
     </div>
   </body>
