@@ -15,6 +15,7 @@
     <div class="contenedor">
       <header>
         <h1>Registro</h1>
+        <h2>hola</h2>
 
       </header>
       <section>
