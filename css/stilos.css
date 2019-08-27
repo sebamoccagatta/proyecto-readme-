@@ -5,10 +5,11 @@
 }
 body{
   background-image: url(../imagenes/fondo-prueba.jpg);
-  opacity: 0.5;  
+  opacity: 0.5;
 }
 .contenedor{
   max-width: 1080px;
+  opacity: 1;
 
 }
 h1{
