@@ -3,6 +3,9 @@
   margin: 0 auto;
   padding: 0;
 }
+body{
+  background-image: url(../imagenes/fondo-prueba.jpg);
+}
 .contenedor{
   max-width: 1080px;
 
