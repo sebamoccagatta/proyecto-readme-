@@ -13,7 +13,7 @@
 .contenedor::after {
   content: "";
   background-image: url(../imagenes/prueba4.jpg);
-  /* background-repeat: repeat; */
+  background-repeat: repeat;
   opacity: 0.3;
   top: 0;
   left: 0;

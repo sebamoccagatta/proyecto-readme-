@@ -12,6 +12,7 @@
     <title>iniciar sesion</title>
   </head>
   <body>
+    <div class="contenedor">
     <h1>Iniciar sesion.</h1>
     <form class="" action="index.html" method="post">
 
@@ -23,5 +24,6 @@
       <a href="index.html"> <button type="submit" name="Iniciar">Iniciar</button> </a>
 
     </form>
+  </div>
   </body>
 </html>
