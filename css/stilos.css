@@ -3,24 +3,9 @@
   margin: 0 auto;
   padding: 0;
 }
-.contenedor {
-  /* width: 100%;
-  height: 100vh; */
-  display: block;
-  position: relative;
-}
+body{
+background-image: url(../image/fondo_milu.jpg);
 
-.contenedor::after {
-  content: "";
-  background-image: url(../imagenes/prueba4.jpg);
-  background-repeat: repeat;
-  opacity: 0.3;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1; */
 }
 h1{
   display: flex;
