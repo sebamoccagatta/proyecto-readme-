@@ -10,7 +10,7 @@ background-image: url(../imagenes/fondo_milu.jpg);
 h1{
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-top: 5%;
 }
 form{
   display: flex;
