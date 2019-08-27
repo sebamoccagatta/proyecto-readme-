@@ -5,6 +5,8 @@
 }
 body{
   background-image: url(../imagenes/fondo-prueba.jpg);
+  background-attachment: fixed;
+  
 }
 .contenedor{
   max-width: 1080px;
