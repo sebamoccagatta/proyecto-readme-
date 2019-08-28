@@ -25,8 +25,7 @@ ul{
   list-style-type: none;
 }
 
-div .banner{
-  display: flex;
+.banner img{
 width: 100vw;
 
 }
