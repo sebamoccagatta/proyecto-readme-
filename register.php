@@ -36,7 +36,7 @@
         <nav>
           <ul>
             <li><a href="iniciar_sesion.php">¿Ya tiene cuenta?</a></li>
-            <li><a href="faq.htlm">Quienes somos</a></li>
+            <li><a href="faq.html">Quienes somos</a></li>
           </ul>
         </nav>
       </section>
