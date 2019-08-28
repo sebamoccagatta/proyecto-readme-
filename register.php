@@ -15,8 +15,8 @@
     <div class="contenedor">
       <header>
         <h1>Registro</h1>
-        
 
+<br><br>
       </header>
       <section>
         <form class="" action="register.php" method="post">
