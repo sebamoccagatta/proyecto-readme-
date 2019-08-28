@@ -24,6 +24,11 @@ ul{
   justify-content: center;
   list-style-type: none;
 }
+.logo img{
+width: 15vw;
+height: 13vh;
+border-radius: 34px;
+}
 
 .banner img{
 width: 100vw;
