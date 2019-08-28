@@ -17,7 +17,7 @@ require_once 'paises.php';
 <br><br>
       </header>
       <section>
-        <form class="" action="register.php" method="post">
+        <form class="" action="iniciar_sesion.php" method="post">
           <label for="Nombre">Nombre:</label><br>
           <input type="text" name="Nombre" required><br>
           <label for="Apellido">Apellido:</label><br>
