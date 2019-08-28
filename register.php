@@ -1,5 +1,4 @@
 <?php
-sesionstart();
 require_once 'paises.php';
  ?>
 
