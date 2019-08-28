@@ -29,8 +29,8 @@ require_once 'paises.php';
           <label for="Confirmarc">Confirmar Contraseña:</label><br>
           <input type="password" name="Confirmarc" required><br>
           <br>
-          <label for="pais">¿De donde eres?</label><br>
-          <select  name="pais" required>
+          <label  for="pais">¿De donde eres?</label><br>
+          <select class="paise"  name="pais" required>
             <?php foreach ($paises as $key => $value) : ?>
              <option value="<?=$key ?>"><?=$value ?></option>
             <?php endforeach; ?>
