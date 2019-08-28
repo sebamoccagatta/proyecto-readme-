@@ -27,12 +27,15 @@ ul{
 
 div .banner{
   display: flex;
-width: 100%;
-height: 70vh;
+width: 100vw;
+
 }
 nav img{
   margin-right: 400px;
   padding-right: 5px;
   width: 270px;
   height: 144px;
+}
+.paise{
+  width: 173px;
 }
