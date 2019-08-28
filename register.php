@@ -1,7 +1,5 @@
 <?php
-// echo "<pre>";
-// var_dump($_POST);
-// echo "</pre>";
+require_once 'paises.php';
  ?>
 
 <!DOCTYPE html>
@@ -31,6 +29,12 @@
           <label for="Confirmarc">Confirmar Contraseña:</label><br>
           <input type="password" name="Confirmarc" required><br>
           <br>
+          <label for="pais">nacionalidad</label><br>
+          <select  name="pais" required>
+            <?php foreach ($paises as $key => $value) : ?>
+             <option value="<?=$key ?>"><?=$value ?></option>
+            <?php endforeach; ?>
+          </select><br>
           <button type="submit" name="enviar formulario">Enviar registro</button>
         </form>
         <nav>
