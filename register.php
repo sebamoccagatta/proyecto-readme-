@@ -60,7 +60,8 @@ require_once 'paises.php';
             <ul>
               <li> <a href="#"><i class="fab fa-facebook-square"></i></a></li>
               <li> <a href="#"><i class="fab fa-twitter-square"></i></i></a></li>
-              <li><a href="#"><i class="fab fa-instagram"></i></i></a></li>
+              <li><a href="#"><i c
+                lass="fab fa-instagram"></i></i></a></li>
               <li> <a href="#"><i class="fab fa-facebook-square"></i></a></li>
             </ul>
 
