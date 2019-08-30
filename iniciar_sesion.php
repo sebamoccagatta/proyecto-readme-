@@ -45,7 +45,9 @@
         </ul>
 
       </div>
-      Copyright (c) 2018 Copyright Holder All Rights Reserved.
+      <div class="copy">
+        Copyright (c) 2018 Copyright Holder All Rights Reserved.
+      </div>
     </div>
   </footer>
   </body>
