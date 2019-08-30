@@ -7,6 +7,7 @@ require_once 'paises.php';
   <head>
     <meta charset="utf-8">
     <title>registro</title>
+      <script src="https://kit.fontawesome.com/5e51a129d6.js"></script>
     <link rel="stylesheet" href="css/stilos.css">
   </head>
   <body>
