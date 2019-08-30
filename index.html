@@ -29,17 +29,17 @@
         <input class="form-control mr-sm-2" type="search" placeholder="Buscar Chucherias" aria-label="Buscar Chucherias">
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
       </form>
-      <li class="nav-item dropdown d-flex justify-content-end">
-        <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Mi perfil
-        </a>
-        <div class="dropdown-menu " aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">usuario</a>
-          <a class="dropdown-item" href="#">cerrar sesion</a>
-          <div class="dropdown-divider "></div>
-          <a class="dropdown-item " href="#">Something else here</a>
-        </div>
-      </li>
+      <div class="desplegable" id="menu-wrapper">
+        <ul id="hmenu">
+          <li><a href="#">Mi perfil</a>
+            <ul id="sub-menu">
+              <li><a href="#">Usuario</a></li>
+              <li><a href="#">Cerrar sesión</a></li>
+              <li><a href="#">Centro de ayuda</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
     </ul>
   </div>
 </nav>
