@@ -126,9 +126,7 @@ float: left;
   float: left;
 font-size: 100%;
 }
-.fab{
-    background-color: #607D8B;
-}
+
 footer ul{
   list-style: none;
 }
@@ -151,6 +149,11 @@ footer ul{
   display: inline-flex;
   text-align: center;
 }
+i{
+  color: grey;
+  font-size: 20px;
+}
+
 /*ul de caja A*/
 .ula{
   flex-direction: column;
