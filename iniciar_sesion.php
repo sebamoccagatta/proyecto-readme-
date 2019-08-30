@@ -20,6 +20,7 @@
       <input type="text" name="Nombre de usuario" required ><br>
       <label for="password">Contraseña.</label><br>
       <input type="password" name="Contraseña" required><br>
+      <label for="login-remember">Recuerdame</label>
       <a href="#">Olvide mi contraseña.</a>
       <a href="index.html"> <button type="submit" name="Iniciar">Iniciar</button> </a>
 
