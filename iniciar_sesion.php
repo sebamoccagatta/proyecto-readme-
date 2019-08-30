@@ -24,5 +24,28 @@
 
     </form>
   </div>
+  <footer>
+    <div class="footer-simple">
+      <div class="cajaa">
+          <ul>
+            <li><a href="#"><i class="fas fa-map-marker-alt"></i></a> Calle false 123<br> Pilar </li>
+            <li><a href="#"><i class="fas fa-phone-alt"></i></a>11346839</li>
+            <li><a href="#"><i class="fas fa-envelope"></i></a>Atencionalcliente@gmail.com</li>
+          </ul>
+      </div>
+      <div class="cajab">
+        <h4>SOBRE CHUCHERIAS</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <ul>
+          <li> <a href="#"><i class="fab fa-facebook-square"></i></a></li>
+          <li> <a href="#"><i class="fab fa-twitter-square"></i></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></i></a></li>
+          <li> <a href="#"><i class="fab fa-facebook-square"></i></a></li>
+        </ul>
+
+      </div>
+      Copyright (c) 2018 Copyright Holder All Rights Reserved.
+    </div>
+  </footer>
   </body>
 </html>
