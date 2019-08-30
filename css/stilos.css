@@ -89,16 +89,23 @@ article{
   align-items: center;
   align-items: baseline;
 }
-h3{
+h2{
   display: inline-block;
   width: 100%;
+  padding: 30px;
+  text-align: center;
 }
 
 article div img{
   width: 100%;
+  height: 246px;
+
 }
+
 .imagenes {
-  width: 33%;
+  width: 26%;
+  border: 2px double grey;
+  padding: 8px;
 
 }
 .imagenes p{
