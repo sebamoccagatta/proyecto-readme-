@@ -178,8 +178,10 @@ footer ul{
   overflow: hidden;
   display: inline-flex;
   text-align: center;
-  position: absolute;
+  margin-top: 55px;
+  position: relative;
    bottom:10px;
+   border: 2px double grey;
 }
 i{
   color: grey;
