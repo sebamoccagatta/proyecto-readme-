@@ -46,7 +46,40 @@ nav img{
 .nombredeusuario{
   color: red;
 }
+/* desplegable */
+.desplegable{
+  padding-left: 50px;
+}
+*menu-wrapper ul{
+  padding: 0;
+  list-style: none;
+}
+*hmenu li{
+  display: inline-block;
+}
+*hmenu li a{
+  display: block;
+  padding: 10px 10px;
+  margin-right: 5px;
+  width: 90px;
+}
+li ul{
+  list-style: none;
+  position: absolute;
+  display: none;
+  background-color: white;
+  color: black;
+}
+.sub-menu{
+  display: block;
+  padding: 10px 5px;
+  width: 130px;
+}
+li:hover ul{
+  display: block;
 
+}
+/* desplegable */
 @media query {
 
 }
