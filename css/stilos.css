@@ -43,9 +43,6 @@ nav img{
 .paise{
   width: 173px;
 }
-.nombredeusuario{
-  color: red;
-}
 /* desplegable */
 .desplegable{
   padding-left: 50px;
@@ -112,10 +109,10 @@ article div img{
   justify-content: flex-start;
 }
 /* articulos */
-@media query {
-
+/* Retoques en el registro */
+.loginbutton button{
+  padding: 7px 9px;
 }
-
 
 /* footer */
 .footer-conteiner{
@@ -123,6 +120,7 @@ article div img{
   height: 30vh;
   display: inline-flex;
   text-align: center;
+  margin-top: 55px;
   }
 .caja1{
   width:25%;
@@ -180,6 +178,8 @@ footer ul{
   overflow: hidden;
   display: inline-flex;
   text-align: center;
+  position: absolute;
+   bottom:10px;
 }
 i{
   color: grey;
