@@ -43,6 +43,9 @@ nav img{
 .paise{
   width: 173px;
 }
+.nombredeusuario{
+  color: red;
+}
 
 @media query {
 

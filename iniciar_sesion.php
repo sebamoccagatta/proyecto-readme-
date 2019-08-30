@@ -14,9 +14,9 @@
   <body>
     <div class="contenedor">
     <h1>Iniciar sesion.</h1>
-    <form class="" action="index.html" method="post">
+    <form class="login" action="index.html" method="post">
 
-      <label for="Usuario">Nombre de usuario.</label><br>
+      <label class="nombredeusuario" for="Usuario">Nombre de usuario.</label><br>
       <input type="text" name="Nombre de usuario" required ><br>
       <label for="password">Contraseña.</label><br>
       <input type="password" name="Contraseña" required><br>
