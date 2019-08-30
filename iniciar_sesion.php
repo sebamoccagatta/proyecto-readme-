@@ -30,7 +30,7 @@
     <div class="footer-simple">
       <div class="cajaa">
           <ul>
-            <li><a href="#"><i class="fas fa-map-marker-alt"></i></a> Calle false 123<br> Pilar </li>
+            <li><a href="#"><i class="fas fa-map-marker-alt"></i></a> Calle false 123<br> Pilar </li><br>
             <li><a href="#"><i class="fas fa-phone-alt"></i></a>11346839</li>
             <li><a href="#"><i class="fas fa-envelope"></i></a>Atencionalcliente@gmail.com</li>
           </ul>
@@ -46,7 +46,9 @@
         </ul>
 
       </div>
-      Copyright (c) 2018 Copyright Holder All Rights Reserved.
+      <div class="copy">
+        Copyright (c) 2018 Copyright Holder All Rights Reserved.
+      </div>
     </div>
   </footer>
   </body>
