@@ -107,6 +107,10 @@ li:hover ul{
     justify-content: center;
     margin-right: 0;
   }
+  /*ul de caja 3*/
+  .ul3{
+    flex-direction: column;
+  }
 footer  li{
     margin: 10px;
   }
@@ -121,6 +125,9 @@ float: left;
   height:30vh;
   float: left;
 font-size: 100%;
+}
+.fab{
+    background-color: #607D8B;
 }
 footer ul{
   list-style: none;
@@ -140,10 +147,14 @@ footer ul{
 .footer-simple{
   width: 100vw;
   height: 23vh;
+  overflow: hidden;
   display: inline-flex;
   text-align: center;
 }
-
+/*ul de caja A*/
+.ula{
+  flex-direction: column;
+}
 .copy{
   clear: both;
 }
