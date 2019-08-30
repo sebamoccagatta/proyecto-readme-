@@ -7,6 +7,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+      <script src="https://kit.fontawesome.com/5e51a129d6.js"></script>
     <link rel="stylesheet" href="css/stilos.css">
     <title>iniciar sesion</title>
   </head>
