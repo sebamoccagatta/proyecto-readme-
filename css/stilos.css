@@ -81,10 +81,28 @@ li:hover ul{
 }
 /* desplegable */
 /* articulos */
-section{
-  width: 33.33%;
+article{
   display: flex;
-  flex-direction: column;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-items: baseline;
+}
+h3{
+  display: inline-block;
+  width: 100%;
+}
+
+article div img{
+  width: 100%;
+}
+.imagenes {
+  width: 33%;
+
+}
+.imagenes p{
+  justify-content: flex-start;
 }
 /* articulos */
 @media query {
