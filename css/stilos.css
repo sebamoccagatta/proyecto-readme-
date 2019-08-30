@@ -100,3 +100,13 @@ footer ul{
   height:30vh;
   float: left;
 }
+/*footer simple para las paginas de registro e iniciar seccion*/
+.footer-simple{
+  width: 100vw;
+height: 30vh;
+display: inline-flex;
+text-align: center;
+}
+.copy{
+  clear: both;
+}
