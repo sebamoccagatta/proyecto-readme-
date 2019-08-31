@@ -25,7 +25,7 @@
       </div><br>
       <a href="#">Olvide mi contraseña.</a><br>
       <a href="register.php">¿No tienes cuenta aún?</a><br>
-      <a class="loginbutton" href="index.html"> <button type="submit" name="Iniciar">Iniciar</button> </a>
+      <a class="loginbutton" href="logindex.php"> <button type="submit" name="Iniciar">Iniciar</button> </a>
 
     </form>
   </div>

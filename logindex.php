@@ -20,10 +20,10 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="iniciar_sesion.php">Iniciar sesión <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="">Mis artesanias<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="register.php">Registrate</a>
+        <a class="nav-link" href="register.php"></a>
       </li>
       <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Buscar Chucherias" aria-label="Buscar Chucherias">
@@ -31,11 +31,12 @@
       </form>
       <div class="desplegable" id="menu-wrapper">
         <ul id="hmenu">
-          <li><a href="#">Mi perfil</a>
+          <li><a href="#">Artesano</a>
             <ul id="sub-menu">
-              <li><a href="#">Usuario</a></li>
+              <li><a href="#">Mi perfil</a></li>
+              <li><a href="#">Configuración</a></li>
+              <li><a href="faq.html">Necesito ayuda</a></li>
               <li><a href="#">Cerrar sesión</a></li>
-              <li><a href="faq.html">Centro de ayuda</a></li>
             </ul>
           </li>
         </ul>
