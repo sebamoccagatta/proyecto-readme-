@@ -25,22 +25,10 @@
       <li class="nav-item">
         <a class="nav-link" href="register.php"></a>
       </li>
-      <form class="form-inline my-2 my-lg-0 searchlog">
+      <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Buscar Chucherias" aria-label="Buscar Chucherias">
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
       </form>
-  <div id="menu-wrapper">
-          <ul id="hmenu">
-            <li><a href="#">menu</a>
-              <ul id="sub-menu">
-                <li><a href="#">Mi perfil</a></li>
-                <li><a href="#">Necesito ayuda</a></li>
-                <li><a href="#">Cerrar sesión</a></li>
-              </ul>
-            </li>
-          </ul>
-    </div>
-
       <div class="desplegable" id="menu-wrapper">
         <ul id="hmenu">
           <li class="despliegue"><a href="#"><img src="imagenes/desplegue.png" alt=""></a>
@@ -53,7 +41,6 @@
           </li>
         </ul>
       </div>
-
     </ul>
   </div>
 </nav>
@@ -139,11 +126,7 @@
       <div class="footer-conteiner">
       <div class=" col-md-3 col-sm-6 col-xs-12 caja1">
         <h3>¿Quienes Somos?</h3>
-
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidata.</p>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
       </div>
         <div class="col-md-3 col-sm-6 col-xs-12 caja2">
         <h3>Redes Sociales</h3>
