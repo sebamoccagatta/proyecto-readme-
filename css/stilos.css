@@ -72,19 +72,21 @@ z-index: 0;
   bottom: 0vh;
 }
 .ayuda{
-  position: relative;
-  left: 18vw;
+  position: absolute;
+    left: 15vw;
  }
 .ayuda img{
-  width: 47px;
+  width: 50px;
   height: auto;
+  position: relative;
+  bottom: 6vh;
+  left: 15vw;
 }
 .form-inline{
     position: relative;
     left: 13vw;
 }
 .ayuda{
-<<<<<<< HEAD
   position: relative;
   left: 15vw;
 }
