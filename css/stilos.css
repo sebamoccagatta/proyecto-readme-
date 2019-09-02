@@ -247,7 +247,23 @@ i{
   clear: both;
 }
 
-@media (max-width:)
+@media (max-width:500px){
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: baseline;
+    text-align: center;
+}
+.imagenes{
+margin-top: 10vh;
+width: 100vw;
+height: auto;
+}
+section{
+  justify-content: center;
+}
 
 
 
