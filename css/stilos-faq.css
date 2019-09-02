@@ -29,6 +29,35 @@ align-items:center;
 ul li{
   list-style: none;
 }
-nav{
-  background-color: grey;
+.footer-simple{
+  width: 100vw;
+  height: 30vh;
+  overflow: hidden;
+  text-align: center;
+  margin-top: 40px;
+   bottom:10px;
+   background-color: #9e8b8b59;
+}
+.loginfooter1{
+  width: 30vw;
+  float: left;
+  margin-right: 25%;
+  margin-left: 5%;
+}
+.loginfooter2{
+  width: 30vw;
+  float: left;
+}
+i{
+  color: grey;
+  font-size: 20px;
+}
+
+/*ul de caja A*/
+.ula{
+  flex-direction: column;
+}
+.loginfooter3{
+  clear: both;
+  margin-top: 18%;
 }
