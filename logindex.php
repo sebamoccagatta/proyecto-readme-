@@ -29,6 +29,22 @@
         <input class="form-control mr-sm-2" type="search" placeholder="Buscar Chucherias" aria-label="Buscar Chucherias">
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
       </form>
+<<<<<<< HEAD
+<<<<<<< HEAD
+  <div id="menu-wrapper">
+          <ul id="hmenu">
+            <li><a href="#">menu</a>
+              <ul id="sub-menu">
+                <li><a href="#">Mi perfil</a></li>
+                <li><a href="#">Necesito ayuda</a></li>
+                <li><a href="#">Cerrar sesión</a></li>
+              </ul>
+            </li>
+          </ul>
+    </div>
+=======
+=======
+>>>>>>> 82d6fe2c49b8091f2a159cebb3c19161085d7095
       <div class="desplegable" id="menu-wrapper">
         <ul id="hmenu">
           <li class="despliegue"><a href="#"><img src="imagenes/desplegue.png" alt=""></a>
@@ -41,6 +57,7 @@
           </li>
         </ul>
       </div>
+>>>>>>> 453f8631685b65855fbe484a8ce6ac97b438e63f
     </ul>
   </div>
 </nav>

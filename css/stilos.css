@@ -56,6 +56,16 @@ z-index: 0;
 }
 .teregistras{
   position: relative;
+<<<<<<< HEAD
+<<<<<<< HEAD
+  left: 6vw;
+
+=======
+  left: 12vw;
+  top: 2vh;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
   left: 6vw;
   top: 0vh;
 }
@@ -77,27 +87,65 @@ z-index: 0;
   height: auto;
 }
 =======
+>>>>>>> 82d6fe2c49b8091f2a159cebb3c19161085d7095
 }
 .form-inline{
     position: relative;
     left: 13vw;
 }
 .ayuda{
+<<<<<<< HEAD
+  position: relative;
+  left: 15vw;
+=======
+>>>>>>> 1de47f1c3801f009d37d9562e8d7060562b073b3
+}
+.form-inline{
+  position: relative;
+  bottom: 6vh;
+  left: 15vw;
+}
+.ayuda{
+  position: relative;
+  left: 18vw;
+>>>>>>> 453f8631685b65855fbe484a8ce6ac97b438e63f
+=======
     position: relative;
     left: 19vw;
     top: 0vh;
+>>>>>>> 82d6fe2c49b8091f2a159cebb3c19161085d7095
  }
 .ayuda img{
   width: 47px;
   height: auto;
 }
+<<<<<<< HEAD
+=======
+}
+.form-inline{
+    position: relative;
+    left: 13vw;
+}
+.ayuda{
+  position: relative;
+  left: 15vw;
+ }
+.ayuda img{
+  width: 47px;
+  height: auto;
+}
+>>>>>>> e0013842ff728c7239d45420b7b9e0a6ab1374b4
+=======
 
+>>>>>>> 82d6fe2c49b8091f2a159cebb3c19161085d7095
   .misartesanias{
     position:relative;
     left: 13vw;
     top: 1vh;
   }
 
+<<<<<<< HEAD
+=======
     .desplegableperfil{
       position: relative;
       left: 2vw;
@@ -113,6 +161,7 @@ z-index: 0;
       width: 41px;
       height: auto;
     }
+>>>>>>> 1de47f1c3801f009d37d9562e8d7060562b073b3
 
 .paise{
   width: 173px;
@@ -134,6 +183,7 @@ li ul{
   display: none;
   background-color: white;
   color: black;
+<<<<<<< HEAD
 }
 .sub-menu{
   display: block;
@@ -145,6 +195,19 @@ li ul{
 li:hover ul{
   display: block;
 }
+=======
+}
+.sub-menu{
+  display: block;
+  padding: 10px 5px;
+  width: 130px;
+  position: relative;
+  z-index: 2;
+}
+li:hover ul{
+  display: block;
+}
+>>>>>>> 82d6fe2c49b8091f2a159cebb3c19161085d7095
 /* desplegable */
 *menu-wrapper ul{
   padding: 0;
@@ -335,6 +398,48 @@ height: auto;
 section{
   justify-content: center;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+.footer-conteiner{
+  width: 100vw;
+  height: 50vh;
+flex-direction:block;
+flex-wrap: wrap;
+
+}
+h3{
+  font-size: 1em;
+}
+.caja1{
+margin: 0;
+  width: 50%;
+  height: 25vh;
+  justify-content: flex-start;
+}
+.caja2{
+  width: 50%;
+  height: 25vh;
+  justify-content: flex-end;
+}
+.caja3{
+  width: 50%;
+  height: 25vh;
+  justify-content: flex-start;
+}
+.caja4{
+  width: 50%;
+  height: 25vh;
+  justify-content: flex-end;
+}
+/* index */
+.contenedorlog{
+width: 100vw;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 82d6fe2c49b8091f2a159cebb3c19161085d7095
 .footer-conteiner{
   width: 100vw;
   height: 50vh;
@@ -361,6 +466,10 @@ h3{
   width: 100%;
   height: 7vh;
 }
+<<<<<<< HEAD
+>>>>>>> 1de47f1c3801f009d37d9562e8d7060562b073b3
+=======
+>>>>>>> 82d6fe2c49b8091f2a159cebb3c19161085d7095
 /* index */
 
 /* Registro */
@@ -369,7 +478,16 @@ h3{
 width: 100 vw;
 
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3e28a5d4024f4f1d4c8721ca2f0cf235a068362e
+=======
+>>>>>>> 82d6fe2c49b8091f2a159cebb3c19161085d7095
 
 
+=======
+>>>>>>> 1de47f1c3801f009d37d9562e8d7060562b073b3
 
+>>>>>>> 453f8631685b65855fbe484a8ce6ac97b438e63f
 }
