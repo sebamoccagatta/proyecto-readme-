@@ -11,7 +11,7 @@
     <title>iniciar sesion</title>
   </head>
   <body>
-    <div class="contenedor">
+    <div class="contenedorlog">
     <h1>Iniciar sesión.</h1>
     <form class="login" action="logindex.php" method="post">
 
