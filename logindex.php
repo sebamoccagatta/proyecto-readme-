@@ -49,7 +49,7 @@
 </div>
     </header>
 
-    <h1> PRODUCTOS ARTESANALES </h1>
+    <h1> PRODUCTOS ARTESANALES</h1>
 
     <section>
       <h2>Indumentaria</h2>
