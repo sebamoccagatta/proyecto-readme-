@@ -11,7 +11,7 @@ require_once 'paises.php';
     <link rel="stylesheet" href="css/stilos.css">
   </head>
   <body>
-    <div class="contenedor">
+    <div class="contenedorlog">
       <header>
         <h1>Registro</h1>
 
