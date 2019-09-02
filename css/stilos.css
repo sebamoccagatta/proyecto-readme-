@@ -74,10 +74,6 @@ z-index: 0;
   bottom: 6vh;
   left: 15vw;
 }
-.searchlog{
-  position: relative;
-  bottom: 0vh;
-}
 .ayuda{
   position: relative;
   left: 18vw;
@@ -398,8 +394,6 @@ height: auto;
 section{
   justify-content: center;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
 .footer-conteiner{
   width: 100vw;
   height: 50vh;
@@ -434,12 +428,6 @@ margin: 0;
 /* index */
 .contenedorlog{
 width: 100vw;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 82d6fe2c49b8091f2a159cebb3c19161085d7095
 .footer-conteiner{
   width: 100vw;
   height: 50vh;
@@ -466,28 +454,13 @@ h3{
   width: 100%;
   height: 7vh;
 }
-<<<<<<< HEAD
->>>>>>> 1de47f1c3801f009d37d9562e8d7060562b073b3
-=======
->>>>>>> 82d6fe2c49b8091f2a159cebb3c19161085d7095
 /* index */
 
 /* Registro */
 
 .contenedorlog{
-width: 100 vw;
-
+width: 100vw;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 3e28a5d4024f4f1d4c8721ca2f0cf235a068362e
-=======
->>>>>>> 82d6fe2c49b8091f2a159cebb3c19161085d7095
-
-
-=======
->>>>>>> 1de47f1c3801f009d37d9562e8d7060562b073b3
-
->>>>>>> 453f8631685b65855fbe484a8ce6ac97b438e63f
+.register{
+  justify-content: center;
 }
