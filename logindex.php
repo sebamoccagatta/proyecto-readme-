@@ -29,10 +29,10 @@
         <input class="form-control mr-sm-2" type="search" placeholder="Buscar Chucherias" aria-label="Buscar Chucherias">
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
       </form>
-      <div class="desplegable" id="menu-wrapper">
+      <div class="desplegableperfil" id="menu-wrapper">
         <ul id="hmenu">
-          <li class="despliegue"><a href="#"><img src="imagenes/desplegue.png" alt=""></a>
-            <ul id="sub-menu">
+          <li class="despliegue"><a href="#"><img src="imagenes/desplegue.png" alt="">
+            <ul id="sub-menu"></a>
               <li><a href="#">Mi perfil</a></li>
               <li><a href="#">Configuración</a></li>
               <li><a href="faq.html">Necesito ayuda</a></li>
