@@ -35,7 +35,7 @@
           <ul class="ula">
             <li><a href="#"><i class="fas fa-map-marker-alt"></a></i> Calle false 123<br> Pilar </li><br>
             <li><a href="#"><i class="fas fa-phone-alt"></a></i>11346839</li>
-            <li><a href="#"><i class="fas fa-envelope"></a></i> Atencion@gma.com</li>
+            <li><a href="#"><i class="fas fa-envelope"></a></i> Atencion@chucherias.com</li>
           </ul>
       </div>
       <div class="loginfooter2">
