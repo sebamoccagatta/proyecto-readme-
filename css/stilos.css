@@ -257,6 +257,20 @@ i{
 }
 
 @media (max-width:500px){
+  /* index */
+  .logo img{
+    width: 39vw;
+    height: 13vh;
+    border-radius: 34px;
+    position: relative;
+    right: 13vw;
+  }
+  h1{
+    text-align: center;
+  }
+  h2{
+    text-align: left;
+  }
 article{
     display: flex;
     flex-direction: column;
@@ -272,6 +286,14 @@ height: auto;
 }
 section{
   justify-content: center;
+}
+/* index */
+
+/* Registro */
+
+.contenedor{
+width: 100 vw;
+
 }
 
 
