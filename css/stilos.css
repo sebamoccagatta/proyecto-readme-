@@ -7,6 +7,9 @@ body{
 background-image: url(../imagenes/fondo_milu.jpg);
 
 }
+nav{
+  background-color: white;
+}
 h1{
   display: flex;
   justify-content: center;
@@ -24,6 +27,12 @@ ul{
   justify-content: center;
   list-style-type: none;
 }
+/* barra de navegacion */
+nav{
+  weight:100vw;
+  overflow: hidden;
+  padding: 0;
+}
 .logo img{
 width: 15vw;
 height: 13vh;
@@ -32,19 +41,61 @@ border-radius: 34px;
 
 .banner img{
 width: 100vw;
-
+z-index: 0;
 }
-nav img{
+/* nav img{
   margin-right: 400px;
   padding-right: 5px;
   width: 270px;
   height: 144px;
+} */
+.iniciarsesion{
+    position: relative;
+    left: 12vw;
+    top: 2vh;
 }
+.teregistras{
+  position: relative;
+  left: 12vw;
+  top: 2vh;
+}
+.form-inline{
+    position: relative;
+    left: 13vw;
+}
+.ayuda{
+  position: relative;
+  left: 15vw;
+ }
+.ayuda img{
+  width: 47px;
+  height: auto;
+}
+  .misartesanias{
+    position:relative;
+    left: 13vw;
+    top: 2vh;
+  }
+
+    .desplegableperfil{
+      position: relative;
+      left: 2vw;
+      padding: 10px;
+      z-index: 123;
+    }
+    .despliegue{
+      position: relative;
+      left: 14vw;
+      z-index: 2;
+    }
+    .despliegue img{
+      width: 41px;
+      height: auto;
+    }
+
+/* fin de barra de navegacion */
 .paise{
   width: 173px;
-}
-.nombredeusuario{
-  color: red;
 }
 /* desplegable */
 .desplegable{
@@ -80,10 +131,42 @@ li:hover ul{
 
 }
 /* desplegable */
-@media query {
+/* articulos */
+article{
+  display: flex;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-items: baseline;
+}
+h2{
+  display: inline-block;
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+}
+
+article div img{
+  width: 100%;
+  height: 246px;
 
 }
 
+.imagenes {
+  width: 26%;
+  border: 2px double grey;
+  padding: 8px;
+
+}
+.imagenes p{
+  justify-content: flex-start;
+}
+/* articulos */
+/* Retoques en el registro */
+.loginbutton button{
+  padding: 7px 9px;
+}
 
 /* footer */
 .footer-conteiner{
@@ -91,6 +174,7 @@ li:hover ul{
   height: 30vh;
   display: inline-flex;
   text-align: center;
+  margin-top: 55px;
   }
 .caja1{
   width:25%;
@@ -107,6 +191,10 @@ li:hover ul{
     justify-content: center;
     margin-right: 0;
   }
+  /*ul de caja 3*/
+  .ul3{
+    flex-direction: column;
+  }
 footer  li{
     margin: 10px;
   }
@@ -122,6 +210,7 @@ float: left;
   float: left;
 font-size: 100%;
 }
+
 footer ul{
   list-style: none;
 }
@@ -139,11 +228,39 @@ footer ul{
 /*footer simple para las paginas de registro e iniciar seccion*/
 .footer-simple{
   width: 100vw;
-  height: 23vh;
-  display: inline-flex;
+  height: 30vh;
+  overflow: hidden;
   text-align: center;
+  margin-top: 40px;
+   bottom:10px;
+   background-color: #9e8b8b59;
+}
+.loginfooter1{
+  width: 30vw;
+  float: left;
+  margin-right: 25%;
+  margin-left: 5%;
+}
+.loginfooter2{
+  width: 30vw;
+  float: left;
+}
+i{
+  color: grey;
+  font-size: 20px;
 }
 
-.copy{
+/*ul de caja A*/
+.ula{
+  flex-direction: column;
+}
+.loginfooter3{
   clear: both;
+  margin-top: 18%;
+}
+
+@media (max-width:)
+
+
+
 }

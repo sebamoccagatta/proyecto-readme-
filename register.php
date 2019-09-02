@@ -58,10 +58,10 @@ require_once 'paises.php';
             <h4>SOBRE CHUCHERIAS</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <ul>
-              <li> <a href="#"><i class="fab fa-facebook-square"></i></a></li>
-              <li> <a href="#"><i class="fab fa-twitter-square"></i></i></a></li>
-              <li><a href="#"><i class="fab fa-instagram"></i></i></a></li>
-              <li> <a href="#"><i class="fab fa-facebook-square"></i></a></li>
+              <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fab fa-pinterest-square"></i></a></li>
             </ul>
 
           </div>

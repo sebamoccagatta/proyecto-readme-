@@ -20,39 +20,28 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-<<<<<<< HEAD
-        <!-- <a class="nav-link" href="iniciar_sesion.php">Iniciar sesión <span class="sr-only">(current)</span></a> -->
+        <a class="nav-link misartesanias" href="">Mis artesanias<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <!-- <a class="nav-link" href="register.php"</a> -->
-=======
-        <a class="nav-link iniciarsesion" href="iniciar_sesion.php">Iniciar sesión <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link teregistras" href="register.php">Registrate</a>
->>>>>>> 9963a4e78769ab916551c168c8c6ac997d01edce
+        <a class="nav-link" href="register.php"></a>
       </li>
       <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Buscar Chucherias" aria-label="Buscar Chucherias">
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
       </form>
-      <div class="desplegable" id="menu-wrapper">
+      <div class="desplegableperfil" id="menu-wrapper">
         <ul id="hmenu">
-<<<<<<< HEAD
-          <li><a href="#">Mi cuenta</a>
-            <ul id="sub-menu">
-              <li><a href="#">Iniciar sesion</a></li>
-              <li><a href="#">Registrarme</a></li>
-              <li><a href="#">Ayuda</a></li>
+          <li class="despliegue"><a href="#"><img src="imagenes/desplegue.png" alt="">
+            <ul id="sub-menu"></a>
+              <li><a href="#">Mi perfil</a></li>
+              <li><a href="#">Configuración</a></li>
+              <li><a href="faq.html">Necesito ayuda</a></li>
+              <li><a href="#">Cerrar sesión</a></li>
             </ul>
           </li>
-        <!-- <img src="/imagenes/carrito.png" alt=""> -->
-=======
-          <li class="ayuda"><a href="centrodeayuda.html"><img src="imagenes/ayuda.png" alt=""></a></li>
-        </ul>
->>>>>>> 9963a4e78769ab916551c168c8c6ac997d01edce
         </ul>
       </div>
+    </ul>
   </div>
 </nav>
 <div class="banner">
@@ -137,7 +126,7 @@
       <div class="footer-conteiner">
       <div class=" col-md-3 col-sm-6 col-xs-12 caja1">
         <h3>¿Quienes Somos?</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidata.</p>
       </div>
         <div class="col-md-3 col-sm-6 col-xs-12 caja2">
         <h3>Redes Sociales</h3>
