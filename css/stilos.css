@@ -7,6 +7,9 @@ body{
 background-image: url(../imagenes/fondo_milu.jpg);
 
 }
+nav{
+  background-color: white;
+}
 h1{
   display: flex;
   justify-content: center;
@@ -55,6 +58,7 @@ z-index: 0;
   position: relative;
   left: 12vw;
   top: 2vh;
+<<<<<<< HEAD
 }
 .form-inline{
     position: relative;
@@ -68,6 +72,21 @@ z-index: 0;
   width: 47px;
   height: auto;
 }
+=======
+}
+.form-inline{
+    position: relative;
+    left: 13vw;
+}
+.ayuda{
+  position: relative;
+  left: 15vw;
+ }
+.ayuda img{
+  width: 47px;
+  height: auto;
+}
+>>>>>>> e0013842ff728c7239d45420b7b9e0a6ab1374b4
   .misartesanias{
     position:relative;
     left: 13vw;
@@ -287,6 +306,7 @@ height: auto;
 section{
   justify-content: center;
 }
+<<<<<<< HEAD
 /* index */
 
 /* Registro */
@@ -295,6 +315,8 @@ section{
 width: 100 vw;
 
 }
+=======
+>>>>>>> 3e28a5d4024f4f1d4c8721ca2f0cf235a068362e
 
 
 
