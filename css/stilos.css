@@ -126,8 +126,7 @@ z-index: 0;
 }
 *hmenu li a{
   display: block;
-  padding: 10px 10px;
-  margin-right: 5px;
+  padding: 10px 5px;
   width: 90px;
 }
 li ul{
@@ -144,7 +143,6 @@ li ul{
 }
 li:hover ul{
   display: block;
-
 }
 /* desplegable */
 /* articulos */
