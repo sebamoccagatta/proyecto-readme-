@@ -25,7 +25,7 @@
       <li class="nav-item">
         <a class="nav-link" href="register.php"></a>
       </li>
-      <form class="form-inline my-2 my-lg-0">
+      <form class="form-inline my-2 my-lg-0 searchlog">
         <input class="form-control mr-sm-2" type="search" placeholder="Buscar Chucherias" aria-label="Buscar Chucherias">
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
       </form>
