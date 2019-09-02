@@ -61,3 +61,9 @@ i{
   clear: both;
   margin-top: 18%;
 }
+@media query (max-width:500px){
+.preguntas {
+  margin:0 auto;
+}
+
+}
