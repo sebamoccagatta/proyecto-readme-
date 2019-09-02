@@ -189,6 +189,7 @@ article div img{
   display: inline-flex;
   text-align: center;
   margin-top: 55px;
+  background-color: #9e8b8b59;
   }
 .caja1{
   width:25%;
@@ -273,10 +274,21 @@ i{
   margin-top: 18%;
 }
 
-<<<<<<< HEAD
-@media (max-width:)
-=======
 @media (max-width:500px){
+  /* index */
+  .logo img{
+    width: 39vw;
+    height: 13vh;
+    border-radius: 34px;
+    position: relative;
+    right: 13vw;
+  }
+  h1{
+    text-align: center;
+  }
+  h2{
+    text-align: left;
+  }
 article{
     display: flex;
     flex-direction: column;
@@ -293,7 +305,17 @@ height: auto;
 section{
   justify-content: center;
 }
->>>>>>> e0013842ff728c7239d45420b7b9e0a6ab1374b4
+<<<<<<< HEAD
+/* index */
+
+/* Registro */
+
+.contenedor{
+width: 100 vw;
+
+}
+=======
+>>>>>>> 3e28a5d4024f4f1d4c8721ca2f0cf235a068362e
 
 
 
