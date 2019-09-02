@@ -56,16 +56,9 @@ z-index: 0;
 }
 .teregistras{
   position: relative;
-<<<<<<< HEAD
-<<<<<<< HEAD
   left: 6vw;
-
-=======
   left: 12vw;
   top: 2vh;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
   left: 6vw;
   top: 0vh;
 }
@@ -74,6 +67,10 @@ z-index: 0;
   bottom: 6vh;
   left: 15vw;
 }
+.searchlog{
+  position: relative;
+  bottom: 0vh;
+}
 .ayuda{
   position: relative;
   left: 18vw;
@@ -81,9 +78,6 @@ z-index: 0;
 .ayuda img{
   width: 47px;
   height: auto;
-}
-=======
->>>>>>> 82d6fe2c49b8091f2a159cebb3c19161085d7095
 }
 .form-inline{
     position: relative;
@@ -93,30 +87,23 @@ z-index: 0;
 <<<<<<< HEAD
   position: relative;
   left: 15vw;
-=======
->>>>>>> 1de47f1c3801f009d37d9562e8d7060562b073b3
 }
+
 .form-inline{
   position: relative;
   bottom: 6vh;
   left: 15vw;
 }
 .ayuda{
-  position: relative;
-  left: 18vw;
->>>>>>> 453f8631685b65855fbe484a8ce6ac97b438e63f
-=======
+    position: relative;
+    left: 18vw;
     position: relative;
     left: 19vw;
     top: 0vh;
->>>>>>> 82d6fe2c49b8091f2a159cebb3c19161085d7095
  }
 .ayuda img{
   width: 47px;
   height: auto;
-}
-<<<<<<< HEAD
-=======
 }
 .form-inline{
     position: relative;
@@ -130,18 +117,12 @@ z-index: 0;
   width: 47px;
   height: auto;
 }
->>>>>>> e0013842ff728c7239d45420b7b9e0a6ab1374b4
-=======
-
->>>>>>> 82d6fe2c49b8091f2a159cebb3c19161085d7095
   .misartesanias{
     position:relative;
     left: 13vw;
     top: 1vh;
   }
 
-<<<<<<< HEAD
-=======
     .desplegableperfil{
       position: relative;
       left: 2vw;
@@ -157,8 +138,6 @@ z-index: 0;
       width: 41px;
       height: auto;
     }
->>>>>>> 1de47f1c3801f009d37d9562e8d7060562b073b3
-
 .paise{
   width: 173px;
 }
@@ -190,8 +169,7 @@ li ul{
 }
 li:hover ul{
   display: block;
-}
-=======
+
 }
 .sub-menu{
   display: block;
@@ -203,7 +181,6 @@ li:hover ul{
 li:hover ul{
   display: block;
 }
->>>>>>> 82d6fe2c49b8091f2a159cebb3c19161085d7095
 /* desplegable */
 *menu-wrapper ul{
   padding: 0;
@@ -459,8 +436,7 @@ h3{
 /* Registro */
 
 .contenedorlog{
-width: 100vw;
+width: 100 vw;
+
 }
-.register{
-  justify-content: center;
 }
