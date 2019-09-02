@@ -126,11 +126,11 @@
       <div class="footer-conteiner">
       <div class=" col-md-3 col-sm-6 col-xs-12 caja1">
         <h3>¿Quienes Somos?</h3>
-<<<<<<< HEAD
+
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidata.</p>
-=======
+
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
->>>>>>> e0013842ff728c7239d45420b7b9e0a6ab1374b4
+
       </div>
         <div class="col-md-3 col-sm-6 col-xs-12 caja2">
         <h3>Redes Sociales</h3>
