@@ -40,6 +40,7 @@ border-radius: 34px;
 }
 
 .banner img{
+position: relative;
 width: 100vw;
 z-index: 0;
 }
@@ -51,27 +52,27 @@ z-index: 0;
 } */
 .iniciarsesion{
     position: relative;
-    left: 12vw;
-    top: 2vh;
+    left: 4vw;
 }
 .teregistras{
   position: relative;
-  left: 12vw;
-  top: 2vh;
+  left: 6vw;
+
 }
 .form-inline{
-    position: relative;
-    left: 13vw;
+  position: relative;
+  bottom: 6vh;
+  left: 15vw;
 }
 .ayuda{
   position: relative;
-  left: 15vw;
+  left: 18vw;
  }
 .ayuda img{
   width: 47px;
   height: auto;
 }
-
+=======
 }
 .form-inline{
     position: relative;
@@ -89,36 +90,47 @@ z-index: 0;
   .misartesanias{
     position:relative;
     left: 13vw;
-    top: 2vh;
+    top: 1vh;
   }
 
-    .desplegableperfil{
-      position: relative;
-      left: 2vw;
-      padding: 10px;
-      z-index: 123;
-    }
-    /* .despliegue{
-      position: relative;
-      left: 14vw;
-      z-index: 2; */
-    }
-    .despliegue img{
-      width: 41px;
-      height: auto;
-    }
 
-/* fin de barra de navegacion */
 .paise{
   width: 173px;
 }
 /* desplegable */
-.desplegable{
-  padding-left: 50px;
+.desplegable {
+    position: relative;
+    z-index: 2;
+    left: 15vw;
+  }
+  .despliegue img{
+    width: 40px;
+    height: auto;
+  }
+
+li ul{
+  list-style: none;
+  position: absolute;
+  display: none;
+  background-color: white;
+  color: black;
 }
+.sub-menu{
+  display: block;
+  padding: 10px 5px;
+  width: 130px;
+  position: relative;
+  z-index: 2;
+}
+li:hover ul{
+  display: block;
+}
+/* desplegable */
 *menu-wrapper ul{
   padding: 0;
   list-style: none;
+  position: relative;
+  z-index: 22;
 }
 *hmenu li{
   display: inline-block;
@@ -143,7 +155,6 @@ li ul{
 li:hover ul{
   display: block;
 }
-/* desplegable */
 /* articulos */
 article{
   display: flex;
@@ -304,7 +315,7 @@ height: auto;
 section{
   justify-content: center;
 }
-
+<<<<<<< HEAD
 /* index */
 
 /* Registro */
@@ -313,8 +324,8 @@ section{
 width: 100 vw;
 
 }
-
-
+=======
+>>>>>>> 3e28a5d4024f4f1d4c8721ca2f0cf235a068362e
 
 
 
