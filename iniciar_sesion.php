@@ -13,7 +13,7 @@
   <body>
     <div class="contenedor">
     <h1>Iniciar sesión.</h1>
-    <form class="login" action="index.html" method="post">
+    <form class="login" action="logindex.php" method="post">
 
       <label class="nombredeusuario" for="Usuario">Nombre de usuario.</label><br>
       <input type="text" name="Nombre de usuario" required ><br>
