@@ -24,6 +24,12 @@ ul{
   justify-content: center;
   list-style-type: none;
 }
+/* barra de navegacion */
+nav{
+  weight:100vw;
+  overflow: hidden;
+  padding: 0;
+}
 .logo img{
 width: 15vw;
 height: 13vh;
@@ -32,14 +38,59 @@ border-radius: 34px;
 
 .banner img{
 width: 100vw;
-
+z-index: 0;
 }
-nav img{
+/* nav img{
   margin-right: 400px;
   padding-right: 5px;
   width: 270px;
   height: 144px;
+} */
+.iniciarsesion{
+    position: relative;
+    left: 12vw;
 }
+.teregistras{
+  position: relative;
+  left: 12vw;
+}
+.form-inline{
+    position: relative;
+    left: 13vw;
+}
+.ayuda{
+  position: absolute;
+  right: 2px;
+  padding: 20px;
+}
+.ayuda img{
+    width: 50px;
+    height: auto;
+    position: relative;
+    bottom: 35px;
+  }
+  .misartesanias{
+    position:relative;
+    left: 13vw;
+    top: 1vw;
+  }
+
+    .desplegable{
+      position: relative;
+      right: 2vw;
+      padding: 10px;
+      z-index: 123;
+    }
+    .despliegue{
+      position: relative;
+      left: 14vw;
+    }
+    .despliegue img{
+      width: 41px;
+      height: auto;
+    }
+
+/* fin de barra de navegacion */
 .paise{
   width: 173px;
 }
@@ -196,4 +247,8 @@ i{
   clear: both;
 }
 
-@media query{}
+@media (max-width:)
+
+
+
+}
