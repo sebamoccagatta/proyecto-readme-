@@ -7,6 +7,9 @@ body{
 background-image: url(../imagenes/fondo_milu.jpg);
 
 }
+nav{
+  background-color: white;
+}
 h1{
   display: flex;
   justify-content: center;
@@ -55,6 +58,7 @@ z-index: 0;
   position: relative;
   left: 12vw;
   top: 2vh;
+<<<<<<< HEAD
 }
 .form-inline{
     position: relative;
@@ -68,6 +72,21 @@ z-index: 0;
   width: 47px;
   height: auto;
 }
+=======
+}
+.form-inline{
+    position: relative;
+    left: 13vw;
+}
+.ayuda{
+  position: relative;
+  left: 15vw;
+ }
+.ayuda img{
+  width: 47px;
+  height: auto;
+}
+>>>>>>> e0013842ff728c7239d45420b7b9e0a6ab1374b4
   .misartesanias{
     position:relative;
     left: 13vw;
@@ -107,8 +126,7 @@ z-index: 0;
 }
 *hmenu li a{
   display: block;
-  padding: 10px 10px;
-  margin-right: 5px;
+  padding: 10px 5px;
   width: 90px;
 }
 li ul{
@@ -125,7 +143,6 @@ li ul{
 }
 li:hover ul{
   display: block;
-
 }
 /* desplegable */
 /* articulos */
@@ -172,6 +189,7 @@ article div img{
   display: inline-flex;
   text-align: center;
   margin-top: 55px;
+  background-color: #9e8b8b59;
   }
 .caja1{
   width:25%;
@@ -225,14 +243,22 @@ footer ul{
 /*footer simple para las paginas de registro e iniciar seccion*/
 .footer-simple{
   width: 100vw;
-  height: 23vh;
+  height: 30vh;
   overflow: hidden;
-  display: inline-flex;
   text-align: center;
-  margin-top: 55px;
-  position: relative;
+  margin-top: 40px;
    bottom:10px;
-   border: 2px double grey;
+   background-color: #9e8b8b59;
+}
+.loginfooter1{
+  width: 30vw;
+  float: left;
+  margin-right: 25%;
+  margin-left: 5%;
+}
+.loginfooter2{
+  width: 30vw;
+  float: left;
 }
 i{
   color: grey;
@@ -243,11 +269,26 @@ i{
 .ula{
   flex-direction: column;
 }
-.copy{
+.loginfooter3{
   clear: both;
+  margin-top: 18%;
 }
 
 @media (max-width:500px){
+  /* index */
+  .logo img{
+    width: 39vw;
+    height: 13vh;
+    border-radius: 34px;
+    position: relative;
+    right: 13vw;
+  }
+  h1{
+    text-align: center;
+  }
+  h2{
+    text-align: left;
+  }
 article{
     display: flex;
     flex-direction: column;
@@ -264,7 +305,38 @@ height: auto;
 section{
   justify-content: center;
 }
+.footer-conteiner{
+  width: 100vw;
+  height: 50vh;
+flex-direction:block;
+flex-wrap: wrap;
 
-
-
+}
+h3{
+  font-size: 1em;
+}
+.caja1{
+margin: 0;
+  width: 50%;
+  height: 25vh;
+  justify-content: flex-start;
+}
+.caja2{
+  width: 50%;
+  height: 25vh;
+  justify-content: flex-end;
+}
+.caja3{
+  width: 50%;
+  height: 25vh;
+  justify-content: flex-start;
+}
+.caja4{
+  width: 50%;
+  height: 25vh;
+  justify-content: flex-end;
+}
+/* index */
+.contenedorlog{
+width: 100vw;
 }

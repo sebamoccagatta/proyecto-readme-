@@ -11,14 +11,14 @@ require_once 'paises.php';
     <link rel="stylesheet" href="css/stilos.css">
   </head>
   <body>
-    <div class="contenedor">
+    <div class="contenedorlog">
       <header>
         <h1>Registro</h1>
 
 <br><br>
       </header>
       <section>
-        <form class="" action="iniciar_sesion.php" method="post">
+        <form class="register" action="iniciar_sesion.php" method="post">
           <label for="Nombre">Nombre:</label><br>
           <input type="text" name="Nombre" required><br>
           <label for="Apellido">Apellido:</label><br>
@@ -51,7 +51,7 @@ require_once 'paises.php';
               <ul>
                 <li><a href="#"><i class="fas fa-map-marker-alt"></i></a> Calle false 123<br> Pilar </li>
                 <li><a href="#"><i class="fas fa-phone-alt"></i></a>11346839</li>
-                <li><a href="#"><i class="fas fa-envelope"></i></a>Atencionalcliente@gmail.com</li>
+                <li><a href="#"><i class="fas fa-envelope"></i></a>Atencionalcliente@chucherias.com</li>
               </ul>
           </div>
           <div class="cajab">

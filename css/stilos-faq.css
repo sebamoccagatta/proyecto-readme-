@@ -10,5 +10,6 @@ background-image: url(../imagenes/fondo_milu.jpg);
 section{
 text-align: center;
 display: flex;
-flex-wrap: wrap;
+flex-direction:row-reverse;
+align-items:center;
 }
