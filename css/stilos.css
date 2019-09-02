@@ -40,6 +40,7 @@ border-radius: 34px;
 }
 
 .banner img{
+position: relative;
 width: 100vw;
 z-index: 0;
 }
@@ -51,13 +52,17 @@ z-index: 0;
 } */
 .iniciarsesion{
     position: relative;
-    left: 12vw;
-    top: 2vh;
+    left: 4vw;
 }
 .teregistras{
   position: relative;
+<<<<<<< HEAD
+  left: 6vw;
+
+=======
   left: 12vw;
   top: 2vh;
+<<<<<<< HEAD
 <<<<<<< HEAD
 }
 .form-inline{
@@ -67,6 +72,18 @@ z-index: 0;
 .ayuda{
   position: relative;
   left: 15vw;
+=======
+>>>>>>> 1de47f1c3801f009d37d9562e8d7060562b073b3
+}
+.form-inline{
+  position: relative;
+  bottom: 6vh;
+  left: 15vw;
+}
+.ayuda{
+  position: relative;
+  left: 18vw;
+>>>>>>> 453f8631685b65855fbe484a8ce6ac97b438e63f
  }
 .ayuda img{
   width: 47px;
@@ -90,9 +107,11 @@ z-index: 0;
   .misartesanias{
     position:relative;
     left: 13vw;
-    top: 2vh;
+    top: 1vh;
   }
 
+<<<<<<< HEAD
+=======
     .desplegableperfil{
       position: relative;
       left: 2vw;
@@ -108,18 +127,45 @@ z-index: 0;
       width: 41px;
       height: auto;
     }
+>>>>>>> 1de47f1c3801f009d37d9562e8d7060562b073b3
 
-/* fin de barra de navegacion */
 .paise{
   width: 173px;
 }
 /* desplegable */
-.desplegable{
-  padding-left: 50px;
+.desplegable {
+    position: relative;
+    z-index: 2;
+    left: 15vw;
+  }
+  .despliegue img{
+    width: 40px;
+    height: auto;
+  }
+
+li ul{
+  list-style: none;
+  position: absolute;
+  display: none;
+  background-color: white;
+  color: black;
 }
+.sub-menu{
+  display: block;
+  padding: 10px 5px;
+  width: 130px;
+  position: relative;
+  z-index: 2;
+}
+li:hover ul{
+  display: block;
+}
+/* desplegable */
 *menu-wrapper ul{
   padding: 0;
   list-style: none;
+  position: relative;
+  z-index: 22;
 }
 *hmenu li{
   display: inline-block;
@@ -144,7 +190,6 @@ li ul{
 li:hover ul{
   display: block;
 }
-/* desplegable */
 /* articulos */
 article{
   display: flex;
@@ -305,6 +350,7 @@ height: auto;
 section{
   justify-content: center;
 }
+<<<<<<< HEAD
 .footer-conteiner{
   width: 100vw;
   height: 50vh;
@@ -339,4 +385,52 @@ margin: 0;
 /* index */
 .contenedorlog{
 width: 100vw;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+.footer-conteiner{
+  width: 100vw;
+  height: 50vh;
+flex-direction: column;
+flex-wrap: wrap;
+
+}
+h3{
+  font-size: 1em;
+}
+.caja1{
+  width: 100%;
+  height: 7vh;
+}
+.caja2{
+  width: 100%;
+  height: 7vh;
+}
+.caja3{
+  width: 100%;
+  height: 7vh;
+}
+.caja4{
+  width: 100%;
+  height: 7vh;
+}
+>>>>>>> 1de47f1c3801f009d37d9562e8d7060562b073b3
+/* index */
+
+/* Registro */
+
+.contenedorlog{
+width: 100 vw;
+
+}
+<<<<<<< HEAD
+=======
+>>>>>>> 3e28a5d4024f4f1d4c8721ca2f0cf235a068362e
+
+
+=======
+>>>>>>> 1de47f1c3801f009d37d9562e8d7060562b073b3
+
+>>>>>>> 453f8631685b65855fbe484a8ce6ac97b438e63f
 }
