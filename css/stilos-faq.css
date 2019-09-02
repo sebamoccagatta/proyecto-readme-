@@ -5,11 +5,30 @@
 }
 body{
 background-image: url(../imagenes/fondo_milu.jpg);
-
 }
 section{
-text-align: center;
 display: flex;
 flex-direction:row-reverse;
 align-items:center;
+}
+.preguntas{
+  text-align: center;
+  width: 70%;
+  border: solid black 1px;
+  margin-top: 50px;
+  background-color: rgba(207, 57, 160, 0.1);
+}
+.Centro{
+  width: 20%;
+  margin-bottom: 500px;
+  background-color: rgba(207, 57, 160, 0.1);
+}
+.contenedorcentro{
+  width: 94%;
+}
+ul li{
+  list-style: none;
+}
+nav{
+  background-color: grey;
 }
