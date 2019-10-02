@@ -25,7 +25,7 @@ if ($_POST) {
   <body>
     <div class="contenedorlog">
       <header>
-        <?php include_once ('nav.php'); ?>
+        <nav><?php include_once ('nav.php'); ?></nav>
 
         <h1>Registro</h1>
 

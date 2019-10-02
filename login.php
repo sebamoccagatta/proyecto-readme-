@@ -2,7 +2,6 @@
 session_start();
 
 require_once('funciones.php');
-include_once 'nav.php';
 if ($_POST) {
   // var_dump($_POST);
   // exit;
@@ -30,7 +29,7 @@ exit;
   <body class="bodyLogin">
     <header>
       <nav>
-        <?php session(); ?>
+        <?php include_once 'nav.php'; ?>
       </nav>
     </header>
     <div class="contenedorlog">
