@@ -9,80 +9,26 @@ body{
 /* background-image: url(../images/fondo_milu.jpg); */
 
 }
+/* //BARRA DE NAVEGACION// */
 nav{
   display: flex;
   width: 100%;
-  background-image: url(../images/fondo_milu.jpg);
-
-  height: 15vh;
+  /* background-image: url(../images/fondo_milu.jpg); */
+  background-color: rgba(183,158,173,0.85);
+  height: 10vh;
   justify-content: space-between;
 }
 .logo img{
-  border-radius: 36%;
-  width: 10vw;
+  border-radius: 32%;
+  width: 9vw;
+  position: relative;
+  left: 1vw;
+  top: 1vh;
+
 }
 .navbar{
   width: 100%;
 }
-/*nav bar
-
-.menudespl{
-    list-style: none;
-    position: relative;
-    top: -1vh;
-    z-index: 2;
-}
-#hmenu > li{
-  display: inline-block;
-}
-#hmenu > li > a{
-  display: block;
-  padding: 10px 5px;
-  width: 90px;
-  position: sticky;
-  top: 6vh;
-  right: 10vw;
-}
-li ul{
-  position: absolute;
-  display: none;
-}
-.sub-menu > li > a{
-  display: block;
-  width: 130vw;
-  position: relative;
-  top:6vh;
-  left:0vw;
-}
-.sub-menu{
-  margin: 0 auto;
-}
- li:hover ul{
-  display: block;
-}
-#menu-wrapper, li  ul{
-  background: rgba(183,158,173,0.85);
-  height: 15vh;
-}
-#hmenu{
-  width: 412px;
-  margin: 0 auto;
-}
-#hmenu a{
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
-  position: relative;
-  top: 0vh;
-}
-#hmenu li:hover{
-  background: #7e5d70;
-  text-shadow: 0 0 2px #000;
-  position: relative;
-  top:0vh;
-  left:0vw;
-}
-/*nav bar*/
 h1{
   display: flex;
   justify-content: center;
@@ -95,32 +41,51 @@ form{
   justify-content: space-around;
 }
 ul{
-  display: flex;
-  flex-direction: row;
+  overflow: hidden;
   /* justify-content: center; */
   list-style-type: none;
 }
-/* barra de navegacion */
-/*nav{
-  weight:100vw;
-  overflow: hidden;
-  padding: 0;
+ul a{
+  text-decoration: none;
+  color: white;
+  float: left;
 }
-li .logo{
+.botonsesion{
   position: relative;
-  right: 30vw;
-  top: 1vh;
+    left: 38vw;
+    top: 3vh;
 }
-.logo img{
-  width: 100px;
-  width: 15vw;
-  height: 13vh;
-  border-radius: 34px;
+.botnombre{
   position: relative;
-  right: 30vw;
-  top: 1vh;
-}*/
+    left: 36vw;
+    top: 3vh;
+}
+.botonregis{
+      position: relative;
+      left: 39vw;
+      top: 3vh;
+}
+.botonayuda{
+  position: relative;
+    left: 58vw;
+    bottom: 4vh;
+}
+.sub-menu{
+      height: 7vh;
+}
+.buscar{
+  position: relative;
+  bottom: 7vh;
+  left: 75vw;
+  }
+.botonbuscar {
+  position: relative;
+bottom: 7vh;
+left: 75vw;
+padding: 2px;
+  }
 
+/* //FINAL DE BARRA DE NAVEGACION// */
 .banner img{
 position: relative;
 width: 100%;
