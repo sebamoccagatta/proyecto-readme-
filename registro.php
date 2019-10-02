@@ -1,42 +1,68 @@
 <?php
-require_once 'paises.php';
- ?>
+session_start();
+include_once ('valregistro.php');
 
+if ($_POST) {
+ $errores = validarregistro($_POST);
+ if (count($errores) == 0) {
+   armarImag($_FILES);
+  $usuario = armarUsuario($_POST, $_FILES);
+   guardarUsuario($usuario);
+   header('location:login.php');
+ }
+}
+
+
+?>
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
     <title>registro</title>
       <script src="https://kit.fontawesome.com/5e51a129d6.js"></script>
-    <link rel="stylesheet" href="css/stilos.css">
+    <link rel="stylesheet" href="css/prueba.css">
   </head>
   <body>
     <div class="contenedorlog">
       <header>
+        <?php include_once ('nav.php'); ?>
+
         <h1>Registro</h1>
 
-<br><br>
+        <br><br>
       </header>
       <section>
-        <form class="register" action="iniciar_sesion.php" method="post">
+        <?php if (isset($errores)):?>
+        <ul>
+        <?php foreach ($errores as $key => $error) : ?>
+        <li class="alert alert-danger"><?=$error?></li>
+        <?php endforeach ?>
+        </ul>
+        <?php endif; ?>
+        <form class="register" action="registro.php" method="POST" enctype="multipart/form-data">
           <label for="Nombre">Nombre:</label><br>
           <input type="text" name="Nombre" required><br>
           <label for="Apellido">Apellido:</label><br>
           <input type="text" name="Apellido" required><br>
-          <label for="email">E-mail:</label><br>
-          <input type="email" name="email" required><br>
-          <label for="Contraseña">Contraseña:</label><br>
-          <input type="password" name="Contraseña" required><br>
-          <label for="Confirmarc">Confirmar Contraseña:</label><br>
+          <label for="Email">E-mail:</label><br>
+          <input type="email" name="Email" required><br>
+          <label for="password">Contraseña:</label><br>
+          <input type="Password" name="Password" required><br>
+          <label for="Confirmarc">Confirmar Contrasena:</label><br>
           <input type="password" name="Confirmarc" required><br>
           <br>
+          <?php include_once ('paises.php'); ?>
           <label  for="pais">¿De donde eres?</label><br>
           <select class="paise"  name="pais" required>
             <?php foreach ($paises as $key => $value) : ?>
              <option value="<?=$key ?>"><?=$value ?></option>
             <?php endforeach; ?>
           </select><br>
-          <button type="submit" name="enviar formulario">Enviar registro</button>
+          <label for="avatar">subi tu avatar</label>
+          <input type="file" name="avatar" value="">
+          <!-- <button type="submit" name="button">subi el archivo</button> -->
+          <br>
+          <button type="submit" name="enviar_formulario">Enviar registro</button>
         </form>
         <nav>
           <ul>
@@ -51,7 +77,7 @@ require_once 'paises.php';
               <ul>
                 <li><a href="#"><i class="fas fa-map-marker-alt"></i></a> Calle false 123<br> Pilar </li>
                 <li><a href="#"><i class="fas fa-phone-alt"></i></a>11346839</li>
-                <li><a href="#"><i class="fas fa-envelope"></i></a>Atencionalcliente@chucherias.com</li>
+                <li><a href="mailto:Atencionalcliente@chucherias.com">envianos un Email<i class="fas fa-envelope"></i></a></li>
               </ul>
           </div>
           <div class="cajab">
@@ -63,11 +89,11 @@ require_once 'paises.php';
               <li><a href="#"><i class="fab fa-instagram"></i></a></li>
               <li><a href="#"><i class="fab fa-pinterest-square"></i></a></li>
             </ul>
-
-          </div>
+            </div>
           Copyright (c) 2018 Copyright Holder All Rights Reserved.
-        </div>
-      </footer>
+          </div>
+        </footer>
+      </div>
     </div>
   </body>
 </html>

@@ -6,106 +6,79 @@
     <title>Preguntas frecuentes</title>
   </head>
   <body>
-    <nav>
-      <a href="index.html">Volver</a>
-
-    </nav>
-    <div class="contenedor">
-      <section class="faq">
-      <article class="preguntas">
-    <h1>Preguntas frecuentes</h1>
+      <section class="contenedor">
+         <?php require_once('centrodeayuda.php') ?>
+      <article class="prod">
+    <h2>Preguntas frecuentes</h2>
     <br>
     <br>
-    <h3>¿Cómo busco mi producto?</h3>
+    <ul>
+      <li>¿Cómo busco mi producto?</li>
+      <br>
       <p>Dentro del sitio contamos con un buscador de productos localizado a en la parte superior de nuestra página, al introducir el artículo te daremos sugerencias para ayudarte a encontrar el artículo que estas buscando o artículos similares</p>
       <br>
-    <h3>¿Cómo hago para retirar el pedido en la tienda?</h3>
+      <br>
+    <li>¿Cómo hago para retirar el pedido en la tienda?</li>
+    <br>
       <p>Al momento del ingresar tus datos, elegí la opción Retiro en tienda.</p>
       <br>
-    <h3>¿Que pasa si:
-        No puedo comprar el artículo/ No lo puedo agregar a carrito o si Aparece como no disponible?</h3>
+      <br>
+    <li>¿Que pasa si:
+        No puedo comprar el artículo/ No lo puedo agregar a carrito o si Aparece como no disponible?</li>
       <br>
       <p>Nuestro inventario tiene alta rotación y es probable que en el momento que desees comprar ya no tengamos el artículo disponible. Estamos actualizando y surtiendo nuestros inventarios constantemente, pero no queremos vender algo que no podremos entregar. Recuerda que puedes usar la opción de “Notificarme cuando esté disponible” para que en cuanto el producto este en existencia te llegue un correo y lo puedas comprar.</p>
       <br>
-    <h3>¿Cómo cancelo mi pedido?</h3>
+      <br>
+    <li>¿Cómo cancelo mi pedido?</li>
       <br>
       <p>Para cancelar la compra deberás llamar al 0810-444-4444, indicando el N° de pedido. En el caso de pago en línea la cancelación y reintegro del monto abonado, puede demorar hasta 48 hs hábiles.</p>
       <br>
-    <h3>¿Puedo tener más de una dirección de entrega?</h3>
+      <br>
+    <li>¿Puedo tener más de una dirección de entrega?</li>
       <br>
       <p>Sí, podes tener más de una dirección de entrega (ej. Casa, oficina) Para agregar una dirección de entrega nueva tenés que seguir los siguientes pasos:</p>
       <br>
-          <li>Ingresá a la página con tu usuario
-          </li>
-          <li>Hacé click en el botón "Actualizar Registro", sobre el margen superior derecho
-          </li>
-          <li>Una vez dentro de la actualización, clickeá sobre la solapa "Mis Direcciones
-          </li>
-          <li>Agregá direcciones de entrega o edita las ya existentes</li>
-          <li>Guardá los cambios con el botón "Guardar"
-          </li>
       <br>
-    <h3>¿Cuáles son los costos de envío? ¿Cómo se calculan?</h3>
+        <ul>
+            <li>Ingresá a la página con tu usuario</li>
+            <li>Hacé click en el botón "Actualizar Registro", sobre el margen superior derecho</li>
+            <li>Una vez dentro de la actualización, clickeá sobre la solapa "Mis Direcciones</li>
+            <li>Agregá direcciones de entrega o edita las ya existentes</li>
+            <li>Guardá los cambios con el botón "Guardar"</li>
+        </ul>
+      <br>
+      <br>
+    <li>¿Cuáles son los costos de envío? ¿Cómo se calculan?</li>
       <br>
       <p>Los costos de envío se calcularán de acuerdo al lugar de entrega, tipo o tiempo, piezas enviadas y dimensiones del pedido.
       Nos aliamos con nuestras paqueterías para hacer las entregas de los pedidos y te aseguramos que tenemos precios bajos, hasta en el envío.
       Puedes encontrar el costo de tu envío en el resúmen de tu pedido una vez ingresanda la dirección de entrega.</p>
       <br>
-    <h3>¿Cómo saber si se hizo o no el pago?</h3>
+      <br>
+    <li>¿Cómo saber si se hizo o no el pago?</li>
       <br>
       <p>Si tu pago fue realizado, recibirás un correo electrónico con un mensaje de confirmación. En caso de que esto no suceda comunicate con nosotros.</p>
-  <h3>¿Cuáles son los medios de pago habilitados?</h3>
+      <br>
+      <br>
+  <li>¿Cuáles son los medios de pago habilitados?</li>
       <br>
       <p>MercadoPago (aplica para envío a domicilio y retiro en sucursal). Podés consultar las promociones vigentes de Mercadopago aquí
         Pago contra entrega (aplica únicamente para retiro en sucursal). Podés consultar las promociones vigentes para esta modalidad aquí</p>
       <br>
-    <h3>¿Qué pasa si no hay nadie en el domicilio al momento de la entrega?</h3>
+      <br>
+    <li>¿Qué pasa si no hay nadie en el domicilio al momento de la entrega?</li>
       <br>
       <p>Nuestro personal se comunicará con vos para reprogramar la entrega.</p>
       <br>
-    <h3>¿Puedo dejar un pedido sin confirmar y continuar haciéndolo en otro momento, una vez que salí de la página?</h3>
+      <br>
+    <li>¿Puedo dejar un pedido sin confirmar y continuar haciéndolo en otro momento, una vez que salí de la página?</li>
+
       <br>
       <p>Podes dejar pendiente de confirmación un pedido y continuar haciéndolo más tarde, sin perder los productos que habías seleccionado en tu carrito.</p>
       <br>
+      <br>
+  </ul>
     </article>
-    <article class="Centro">
-      <h2>Centro de ayuda</h2>
-      <br>
-      <div class="contenedorcentro">
-      <h3>Pagos</h3>
-      <ul>
-      <li><a href="#">Formas de pago</a></li>
-      <li><a href="#">Pago seguro</a></li>
-      <li><a href="#">MercadoPago</a></li>
-      </ul>
-      <br>
-      <h3>Preguntas frecuentes</h3>
-      <a href="faq.html">Preguntas frecuentes</a>
-      <br>
-      <br>
-      <h3>Facturacion</h3>
-      <li><a href="#">Formas de facturacion</a></li>
-      <br>
-      <h3>Tu cuenta</h3>
-      <ul>
-      <li><a href="#">Como registrarse </a></li>
-      <li><a href="#">Beneficios de crear una cuenta</a></li>
-      <li><a href="#">Olvide mi contraseña</a></li>
-      <li><a href="#">como modificar tus datos de contacto</a></li>
-      </ul>
-      <br>
-      <h3>Envios</h3>
-      <ul>
-      <li><a href="#">Tipos de envio</a></li>
-      <li><a href="#">Mira el estado de tu pedido</a></li>
-      <li><a href="#">No llego mi producto</a></li>
-      <li><a href="#">Historial de pedidos</a></li>
-      <br>
-      <br>
-      <br>
-      </ul>
-        </div>
-      </article>
     </section>
     <footer>
       <div class="footer-simple">

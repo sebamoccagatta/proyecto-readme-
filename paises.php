@@ -2,6 +2,7 @@
 $paises = [];
 
 $paises = [
+  " "=>" ",
   "AL"=>"Albania",
   "DE"=>"Alemania",
   "AD"=>"Andorra",
