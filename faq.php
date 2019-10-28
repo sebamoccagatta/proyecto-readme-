@@ -6,6 +6,9 @@
     <title>Preguntas frecuentes</title>
   </head>
   <body>
+    <nav>
+      <?php include_once 'nav.php'; ?>
+    </nav>
       <section class="contenedor">
          <?php require_once('centrodeayuda.php') ?>
       <article class="prod">

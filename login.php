@@ -1,21 +1,23 @@
 <?php
 session_start();
+include_once 'autoload.php';
 
-require_once('funciones.php');
-if ($_POST) {
-  // var_dump($_POST);
-  // exit;
-  // En esta fucion valido los campos de login que lo que hace basicamente es chequear de que el email se encuentra regristrado en la base de datos y si es afirmativo va a chequear si las contraseñas ingresadas y en la BDD coinciden.
-  $errores = validarLogin($_POST);
-  if (count($errores) == 0) {
-    // En caso de no tener errores  nos traemos toda la informacion del usuario utlizando la funcion buscarPorEmail
-    $usuario = buscarPorEmail($_POST["Email"]);
-    // Con esta funcion seteo la variable de SESSION para que contenga toda la información del usuario que se registró.
-    inicioSesion($usuario);
-header('Location:index.php');
-exit;
-}
-}
+//
+// require_once('funciones.php');
+// if ($_POST) {
+//   // var_dump($_POST);
+//   // exit;
+//   // En esta fucion valido los campos de login que lo que hace basicamente es chequear de que el email se encuentra regristrado en la base de datos y si es afirmativo va a chequear si las contraseñas ingresadas y en la BDD coinciden.
+//   $errores = validarLogin($_POST);
+//   if (count($errores) == 0) {
+//     // En caso de no tener errores  nos traemos toda la informacion del usuario utlizando la funcion buscarPorEmail
+//     $usuario = buscarPorEmail($_POST["Email"]);
+//     // Con esta funcion seteo la variable de SESSION para que contenga toda la información del usuario que se registró.
+//     inicioSesion($usuario);
+// header('Location:index.php');
+// exit;
+// }
+// }
 ?>
 
 

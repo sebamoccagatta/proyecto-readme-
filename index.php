@@ -1,7 +1,6 @@
 <?php
-require_once 'productos.php';
 session_start();
-
+include_once 'autoload.php';
  ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">

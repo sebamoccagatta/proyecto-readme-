@@ -1,2 +1,0 @@
-# proyecto-readme-
-proyecto formar
