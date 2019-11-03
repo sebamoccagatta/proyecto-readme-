@@ -39,8 +39,8 @@ class Usuario{
         return $this->email;
   }
 
-  public function setEmail($email){
-        $this->email = $email;
+  public function setEmail($Email){
+        $this->email = $Email;
 
         return $this;
   }
@@ -49,8 +49,8 @@ class Usuario{
         return $this->password;
   }
 
-  public function setPassword($password){
-        $this->password = $password;
+  public function setPassword($Password){
+        $this->password = $Password;
 
         return $this;
   }

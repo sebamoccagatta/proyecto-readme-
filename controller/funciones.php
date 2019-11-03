@@ -11,7 +11,7 @@ function validarLogin($datos){
     $errores[] = "Usuario no se encuentra registrado";
   }
   // En este if utilizando la funcion password_verify le paso lo ingresado por el usuario en el formulario y lo que se encuentra en la posicion contrasenia del usuario buscado. Esta funcion retorna true si ambas contraseñas coinciden y false si no coin ciden. En caso de ser false retornara que la contraseña es incorrecta.
-  if(password_verify($datos["Password"], $usuario["Password"]) == false) {
+  if(PASSWORD_VERIFY($datos["Password"], $usuario["Password"]) == false) {
     $errores[] = "La contraseña es incorrecta";
   }
   // La funcion retorna los errores

@@ -1,7 +1,11 @@
 <?php
+include_once 'autoload.php';
 Class Validador {
-  public function validarregistro($datos){
+
+  public function validarRegistro($datos){
+
 $errores=[];
+
 if ($datos) {
   if (strlen($datos["Nombre"])==0) {
     $errores[] = "El campo nombre se encuentra vacio";
@@ -12,7 +16,7 @@ if ($datos) {
   if (!filter_var($datos["Email"], FILTER_VALIDATE_EMAIL)){
     $errores[] = "El email ingresado tiene un formato incorrrecto";
   }
-  if (strlen($datos["Password"]) < 6 ) {
+  if (strlen($datos["Password"]) <=6 ) {
     $errores[] = "Debe ingresar una contrasenia mayor a 6 caracteres";
   }
   if ($datos["Password"]!= $datos ["Confirmarc"]) {
@@ -31,14 +35,25 @@ if ($datos) {
 }
 return $errores;
 }
-public function ValidarLogin($datos, $usuario) {
-  if(password_verify(["Password"], $usuario["Confirmarc"])== false){
-    $errores[]="El usuario o la contraseña es incorrecta";
-  }
+
+
+public function ValidarLogin($datos, $usuario,$pdo) {
+  $errores = [];
+
+  $usuario = BaseMySQL::buscarPorEmail($datos["Email"]);
+
+  if ($usuario == null) {
+    $errores[] = "Usuario no se encuentra registrado";
+  } else {
+    if(PASSWORD_VERIFY($datos["Password"], $usuario["contrasena"]) == false) {
+      $errores[] = "La contraseña es incorrecta";
+    }
+  //var_dump($usuario);
+  //exit;
+  // La funcion retorna los errores
   return $errores;
+
+  }
 }
 }
-
-
-
- ?>
+?>

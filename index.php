@@ -9,6 +9,7 @@ include_once 'autoload.php';
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <script src="https://kit.fontawesome.com/5e51a129d6.js"></script>
     <link rel="stylesheet" href="css/prueba.css">
+   <link rel="stylesheet" href="css/caarrusel.css">
     <title>Chucherias</title>
   </head>
   <body>
@@ -17,9 +18,7 @@ include_once 'autoload.php';
       <nav>
       <?php require_once'nav.php' ?>
       </nav>
-<div class="banner">
-<img src="images/bannerprueba.jpg" alt="banner">
-</div>
+      <?php include_once 'carrusel.php' ?>
     </header>
 
     <h1> PRODUCTOS ARTESANALES</h1>

@@ -2,22 +2,22 @@
 session_start();
 include_once 'autoload.php';
 
-// include_once ('valregistro.php');
-//
+
 if ($_POST) {
-  // $errores = $validador->validarregistro($_POST);
-  //   if (count($errores) == 0) {
-  //       $usuario = BaseMySQL::buscarPorEmail($_POST["Email"], $pdo, 'usuarios');
-  //       if ($usuario != null) {
-  //         $errores[] = "El email ya se encuentra registrado";
-  //       } else {
+   $errores = Validador::validarRegistro($_POST);
+     if (count($errores) == 0) {
+         $usuario = BaseMySQL::buscarPorEmail($_POST["Email"], $pdo, 'usuarios');
+         if ($usuario != null) {
+           $errores[] = "El email ya se encuentra registrado";
+         } else {
           $avatar = ArmarRegistro::armarImagen($_FILES);
           $usuario = ArmarRegistro::armarUsuario($_POST, $avatar);
           BaseMYSQL::guardarUsuario($pdo, $usuario);
           header("Location:login.php");
           exit;
         }
-  
+      }
+    }
 
 ?>
 <!DOCTYPE html>
