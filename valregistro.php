@@ -11,13 +11,13 @@ if ($datos){
     if (strlen($datos["Apellido"])==0) {
     $errores []=  "Debe ingresar un apellido <br>";
     }
-    if (!filter_var($datos["Email"],FILTER_VALIDATE_EMAIL)) {
+    if (!filter_var($datos["email"],FILTER_VALIDATE_EMAIL)) {
     $errores []=  "Email no valido<br>";
     }
-    if (strlen($datos["Password"])< 8  ) {
+    if (strlen($datos["password"])< 8  ) {
     $errores []=  "La contraeña debe tener 8 digitos <br>";
     }
-    if ($datos["Password"] != $datos["Confirmarc"]){
+    if ($datos["password"] != $datos["confirmarc"]){
     $errores []=  "Las contraseñas no coinciden <br>";
     }
     if ($_FILES["avatar"]["error"] != 0) {
@@ -34,11 +34,11 @@ if ($datos){
 
 
     function armarUsuario($datos, $imagen){
-      $contra = PASSWORD_HASH($datos["Password"],PASSWORD_DEFAULT);
+      $contra = PASSWORD_HASH($datos["password"],PASSWORD_DEFAULT);
       $usuario = [
         "Nombre"=>$datos["Nombre"],
         "Apellido"=>$datos["Apellido"],
-        "Email"=>$datos["Email"],
+        "Email"=>$datos["email"],
         "Password"=>$contra,
         "avatar" =>$imagen,
       ];

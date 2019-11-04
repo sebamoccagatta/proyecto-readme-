@@ -1,7 +1,8 @@
 <?php
+
 session_start();
-include_once 'autoload.php';
- ?>
+include_once('autoload.php');
+?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -16,9 +17,9 @@ include_once 'autoload.php';
     <div class="contenedor">
     <header>
       <nav>
-      <?php require_once'nav.php' ?>
+      <?php require_once('nav.php'); ?>
       </nav>
-      <?php include_once 'carrusel.php' ?>
+      <?php include_once('carrusel.php'); ?>
     </header>
 
     <h1> PRODUCTOS ARTESANALES</h1>
@@ -30,13 +31,13 @@ include_once 'autoload.php';
 				<article class="product">
 
 					<div class="photo-container">
-						<img class="photo" src="images/<?=$value["imagen"]?>" alt="Telefono1">
-						<a class="zoom" href="images/<?=$value["imagen"]?>"><center> <img src="images/lupa.png" alt=""> <center></a>
+						<img class="photo" src="images/<?=$value["imagen"];?>" alt="Telefono1">
+						<a class="zoom" href="images/<?=$value["imagen"];?>"><center> <img src="images/lupa.png" alt=""> <center></a>
 					</div>
-					<h2><center><?=$value["titulo"] ?><center></h2>
-					<p><center><?=$value["descripcion"] ?><center></p>
+					<h2><center><?=$value["titulo"]; ?><center></h2>
+					<p><center><?=$value["descripcion"]; ?><center></p>
 				</article>
-			<?php endforeach?>
+			<?php endforeach;?>
       <br>
 
       <h2>Artesania en madera</h2>
@@ -45,26 +46,26 @@ include_once 'autoload.php';
 				<article class="product">
 
 					<div class="photo-container">
-						<img class="photo" src="images/<?=$value["imagen"]?>" alt="Telefono1">
-						<a class="zoom" href="images/<?=$value["imagen"]?>"><center> <img src="images/lupa.png" alt=""> <center></a>
+						<img class="photo" src="images/<?=$value["imagen"];?>" alt="Telefono1">
+						<a class="zoom" href="images/<?=$value["imagen"];?>"><center> <img src="images/lupa.png" alt=""> <center></a>
 					</div>
-					<h2><center><?=$value["titulo"] ?><center></h2>
-					<p><center><?=$value["descripcion"] ?><center></p>
+					<h2><center><?=$value["titulo"];?><center></h2>
+					<p><center><?=$value["descripcion"]; ?><center></p>
 				</article>
-			<?php endforeach?>
+			<?php endforeach;?>
       <h2>Chucherias</h2>
       <br>
       <?php foreach  ($chucherias as $key => $value) :?>
 				<article class="product">
 
 					<div class="photo-container">
-						<img class="photo" src="images/<?=$value["imagen"]?>" alt="Telefono1">
-						<a class="zoom" href="images/<?=$value["imagen"]?>"><center> <img src="images/lupa.png" alt="lupa"> <center></a>
+						<img class="photo" src="images/<?=$value["imagen"];?>" alt="Telefono1">
+						<a class="zoom" href="images/<?=$value["imagen"];?>"><center> <img src="images/lupa.png" alt="lupa"> <center></a>
 					</div>
-					<h2><center><?=$value["titulo"] ?><center></h2>
-					<p><center><?=$value["descripcion"] ?><center></p>
+					<h2><center><?=$value["titulo"]; ?><center></h2>
+					<p><center><?=$value["descripcion"]; ?><center></p>
 				</article>
-			<?php endforeach?>
+			<?php endforeach;?>
     </section>
     <footer>
       <div class="footer-conteiner">
@@ -97,8 +98,7 @@ include_once 'autoload.php';
         </div>
         </div>
     </footer>
-
   </div>
   </body>
-
 </html>
+ 

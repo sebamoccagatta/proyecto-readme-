@@ -7,19 +7,19 @@ class Usuario{
   protected $pais;
   protected $avatar;
 
-  public function __construct($Nombre, $Apellido, $Email, $Password, $Pais, $avatar=null){
-    $this->nombre = $Nombre;
-    $this->apellido = $Apellido;
-    $this->email = $Email;
-    $this->password = $Password;
-    $this->pais = $Pais;
+  public function __construct($nombre, $apellido, $email, $password, $pais, $avatar=null){
+    $this->nombre = $nombre;
+    $this->apellido = $apellido;
+    $this->email = $email;
+    $this->password = $password;
+    $this->pais = $pais;
     $this->avatar = $avatar;
   }
   public function getNombre(){
         return $this->nombre;
   }
 
-  public function setNombre($Nombre){
+  public function setNombre($nombre){
         $this->nombre = $nombre;
 
         return $this;
@@ -29,7 +29,7 @@ class Usuario{
         return $this->apellido;
   }
 
-  public function setApellido($Apellido){
+  public function setApellido($apellido){
         $this->apellido = $apellido;
 
         return $this;
@@ -39,8 +39,8 @@ class Usuario{
         return $this->email;
   }
 
-  public function setEmail($Email){
-        $this->email = $Email;
+  public function setEmail($email){
+        $this->email = $email;
 
         return $this;
   }
@@ -49,8 +49,8 @@ class Usuario{
         return $this->password;
   }
 
-  public function setPassword($Password){
-        $this->password = $Password;
+  public function setPassword($password){
+        $this->password = $password;
 
         return $this;
   }
@@ -60,7 +60,7 @@ class Usuario{
         return $this->pais;
   }
 
-  public function setPais($Pais){
+  public function setPais($pais){
         $this->pais = $pais;
 
         return $this;

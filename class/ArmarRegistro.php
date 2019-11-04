@@ -3,12 +3,12 @@ class ArmarRegistro{
 //la funcion es static ya que es un metodo
   static public function armarUsuario($datos, $imagen){
     //tomo la contraseña y la hasheo y la guardo en una variable
-    // $contra =password_hash($datos["Password"] , PASSWORD_DEFAULT);
+     $contra = password_hash($datos["password"] , PASSWORD_DEFAULT);
         $usuario = new Usuario(
-        $datos["Nombre"],
-        $datos["Apellido"],
-        $datos["Email"],
-        $datos["Password"],
+        $datos["nombre"],
+        $datos["apellido"],
+        $datos["email"],
+        $contra,
         $datos["pais"],
 
         $imagen );

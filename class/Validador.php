@@ -1,5 +1,5 @@
 <?php
-include_once 'autoload.php';
+include_once('autoload.php');
 Class Validador {
 
   public function validarRegistro($datos){
@@ -7,19 +7,19 @@ Class Validador {
 $errores=[];
 
 if ($datos) {
-  if (strlen($datos["Nombre"])==0) {
+  if (strlen($datos["nombre"])==0) {
     $errores[] = "El campo nombre se encuentra vacio";
   }
-  if (strlen($datos["Apellido"])==0) {
+  if (strlen($datos["apellido"])==0) {
     $errores[] = "El campo Apellido se encuentra vacio";
   }
-  if (!filter_var($datos["Email"], FILTER_VALIDATE_EMAIL)){
+  if (!filter_var($datos["email"], FILTER_VALIDATE_EMAIL)){
     $errores[] = "El email ingresado tiene un formato incorrrecto";
   }
-  if (strlen($datos["Password"]) <=6 ) {
+  if (strlen($datos["password"]) <=6 ) {
     $errores[] = "Debe ingresar una contrasenia mayor a 6 caracteres";
   }
-  if ($datos["Password"]!= $datos ["Confirmarc"]) {
+  if ($datos["password"]!= $datos ["confirmarc"]) {
     $errores[] = "Las contraseñas no coinciden";
   }
   if ($_FILES != null) {
@@ -37,23 +37,16 @@ return $errores;
 }
 
 
-public function ValidarLogin($datos, $usuario,$pdo) {
-  $errores = [];
+public function validarLogin($datos, $usuario){
 
-  $usuario = BaseMySQL::buscarPorEmail($datos["Email"]);
-
-  if ($usuario == null) {
-    $errores[] = "Usuario no se encuentra registrado";
-  } else {
-    if(PASSWORD_VERIFY($datos["Password"], $usuario["contrasena"]) == false) {
-      $errores[] = "La contraseña es incorrecta";
-    }
-  //var_dump($usuario);
-  //exit;
+  if(password_verify($datos["password"], $usuario["contrasena"]) == false){
+    $errores[] = "El usuario/contrasenia es incorrecto";
+  }
+  var_dump($errores);
   // La funcion retorna los errores
   return $errores;
-
+}
   }
-}
-}
+
+
 ?>

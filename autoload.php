@@ -1,5 +1,5 @@
 <?php
-session_start();
+//session_start();
 include_once 'class/ArmarRegistro.php';
 include_once 'class/BaseDeDatos.php';
 include_once 'class/BaseMySQL.php';
@@ -12,11 +12,14 @@ include_once 'paises.php';
 include_once 'productos.php';
 
 $host = 'localhost';
-$db_nombre = 'chucherias';
+$bd = 'chucherias';
 $usuario = 'root';
 $password = '';
 $puerto = 3306;
 
-$pdo = BaseMySQL::conexion($host, $db_nombre, $usuario, $password,$puerto);
+
+$pdo = BaseMYSQL::conexion($host,$bd,$usuario,$password,$puerto);
+
+$validador = new Validador($_POST);
 
  ?>

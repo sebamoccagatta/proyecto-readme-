@@ -1,35 +1,21 @@
 <?php
-include_once 'autoload.php';
+include_once('autoload.php');
 
 
 if ($_POST) {
-    $usuario = BaseMySQL::buscarPorEmail($_POST["Email"]);
+    $usuario = BaseMySQL::buscarPorEmail($_POST["email"],$pdo,'usuarios');
   if ($usuario == null) {
     $errores  [] = "El usuario no existe";
 
-var_dump($errores);
    }
     else {
-      $errores=  Validador::ValidarLogin($_POST, $usuario, $pdo);
-
-    if (count($errores) == 0){
-    Autenticador::SeteoUsuario($usuario);
-     var_dump($usuario);
-     var_dump($_POST);
-     // exit;
-    header("location:index.php");}
+      $errores = $validador->validarLogin($_POST, $usuario);
+      if (count($errores) == 0) {
+        Autenticador::seteoUsuario($usuario);
+    header("Location:index.php");
+  }
   }
 }
-  // En esta fucion valido los campos de login que lo que hace basicamente es chequear de que el email se encuentra regristrado en la base de datos y si es afirmativo va a chequear si las contraseñas ingresadas y en la BDD coinciden.
-  //$errores = validarLogin($_POST);
-
-    // En caso de no tener errores  nos traemos toda la informacion del usuario utlizando la funcion buscarPorEmail
-
-
-
-
-    // Con esta funcion seteo la variable de SESSION para que contenga toda la información del usuario que se registró.
- //}
 
 ?>
 
@@ -56,10 +42,10 @@ var_dump($errores);
      <?php endif; ?>
      <form  enctype="multipart/form-data" class="login" action="login.php" method="POST">
 
-       <label class="nombredeusuario" for="Email">Email</label><br>
-       <input type="email" name="Email" value="" required ><br>
-       <label for="Password">Contraseña</label><br>
-       <input type="password" name="Password" value="" required><br>
+       <label class="nombredeusuario" for="email">Email</label><br>
+       <input type="email" name="email" value="" required ><br>
+       <label for="password">Contraseña</label><br>
+       <input type="password" name="password" value="" required><br>
        <div>
          <input type="checkbox" name="Recuerdame">
          <label for="login-remember">Recuerdame</label>

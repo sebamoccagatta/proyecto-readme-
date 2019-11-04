@@ -1,24 +1,32 @@
 <?php
 session_start();
-include_once 'autoload.php';
+include_once('autoload.php');
 
 
-if ($_POST) {
-   $errores = Validador::validarRegistro($_POST);
-     if (count($errores) == 0) {
-         $usuario = BaseMySQL::buscarPorEmail($_POST["Email"], $pdo, 'usuarios');
-         if ($usuario != null) {
-           $errores[] = "El email ya se encuentra registrado";
-         } else {
-          $avatar = ArmarRegistro::armarImagen($_FILES);
-          $usuario = ArmarRegistro::armarUsuario($_POST, $avatar);
-          BaseMYSQL::guardarUsuario($pdo, $usuario);
-          header("Location:login.php");
-          exit;
-        }
+if ($_POST){
+
+  $errores = $validador ->validarRegistro($_POST);
+
+  if (count($errores) == 0) {
+
+      $usuario = BaseMySQL::buscarPorEmail($_POST["email"],$pdo, 'usuarios');
+
+      if ($usuario != null) {
+        $errores[] = "El email ya se encuentra registrado";
+      } else {
+
+        $avatar = ArmarRegistro::armarImagen($_FILES);
+
+        $usuario = ArmarRegistro::armarUsuario($_POST, $avatar);
+
+        BaseMYSQL::guardarUsuario($pdo, $usuario,'usuarios');
+
+        header("Location:login.php");
+
+        exit;
       }
-    }
-
+  }
+}
 ?>
 <!DOCTYPE html>
 <html>
@@ -46,16 +54,16 @@ if ($_POST) {
         </ul>
         <?php endif; ?>
         <form class="register" action="registro.php" method="POST" enctype="multipart/form-data">
-          <label for="Nombre">Nombre:</label><br>
-          <input type="text" name="Nombre" required><br>
-          <label for="Apellido">Apellido:</label><br>
-          <input type="text" name="Apellido" required><br>
-          <label for="Email">E-mail:</label><br>
-          <input type="email" name="Email" required><br>
+          <label for="nombre">Nombre:</label><br>
+          <input type="text" name="nombre" required><br>
+          <label for="apellido">Apellido:</label><br>
+          <input type="text" name="apellido" required><br>
+          <label for="email">E-mail:</label><br>
+          <input type="email" name="email" required><br>
           <label for="password">Contraseña:</label><br>
-          <input type="Password" name="Password" required><br>
-          <label for="Confirmarc">Confirmar Contrasena:</label><br>
-          <input type="password" name="Confirmarc" required><br>
+          <input type="password" name="password" required><br>
+          <label for="confirmarc">Confirmar Contrasena:</label><br>
+          <input type="password" name="confirmarc" required><br>
           <br>
           <?php include_once ('paises.php'); ?>
           <label  for="pais">¿De donde eres?</label><br>
